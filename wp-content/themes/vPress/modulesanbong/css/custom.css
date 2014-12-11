@@ -1,0 +1,196 @@
+body{
+    font-family:sans-serif;
+}
+
+.col-left{
+    width: 75%;
+    margin-right: 3%;
+}
+
+.col-right{
+    width: 22%;
+}
+
+.ui-datepicker-inline{
+    width: 90% !important;
+    margin: 0 auto !important;
+    cursor: pointer !important;
+}
+
+.ui-state-default{
+    height: 50px !important;
+    width: 70% !important;
+    margin: 10px auto !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    line-height: 50px !important;
+    font-size: 25px !important;
+}
+
+#over-loading{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: #FFF;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";       /* IE 8 */
+    filter: alpha(opacity=80);  /* IE 5-7 */
+    -moz-opacity: 0.8;          /* Netscape */
+    -khtml-opacity: 0.8;        /* Safari 1.x */
+    opacity: 0.8;
+}
+
+#over-loading img{
+    margin-top:15%;
+}
+
+.btn{
+    display: block;
+    padding: 10px 12px;
+    border: solid 1px #BFBEBE;
+    background: #FFFCFC;
+    color: #665A5A;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-box-san{
+    margin: 1%;
+    width: 46%;
+    display: block;
+    float: left;
+    height: 200px;
+    border: solid 1px #CCC;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-box-san:hover{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+    filter: alpha(opacity=70);  /* IE 5-7 */
+    -moz-opacity: 0.7;          /* Netscape */
+    -khtml-opacity: 0.7;        /* Safari 1.x */
+    opacity: 0.7;
+}
+
+.step-time-content{
+    width: 94%;
+    margin: 0 8%;
+}
+
+.btn-box-gio{
+    margin: 7px 7px;
+    display: block;
+    width: 10%;
+    height: 65px;
+    border: 1px solid #CCC;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    line-height: 65px;
+    background: #2DBEF5;
+    color: #FFF;
+}
+.btn-box-gio:hover{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+    filter: alpha(opacity=70);  /* IE 5-7 */
+    -moz-opacity: 0.7;          /* Netscape */
+    -khtml-opacity: 0.7;        /* Safari 1.x */
+    opacity: 0.7;
+}
+
+.san-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    margin: 5px auto;
+    display: block;
+}
+
+.show-selected{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.action{
+    margin: 10px auto;
+    padding-bottom: 30px;
+}
+
+.prev-step{
+    float: left;
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+
+.prev-step:hover{
+    background: #FF0000;
+    border: solid 1px #FF0000;
+    color: #FFF;
+}
+
+
+.next-step{
+    float: right;
+    margin-right: 35%;
+    margin-bottom: 30px;
+}
+
+.next-step:hover{
+    background: #4F67F2;
+    border: solid 1px #4F67F2;
+    color: #FFF;
+}
+
+.hien-thi-gio{
+    display: block;
+    width: 25%;
+    float: left;
+    height: 150px;
+    border: 1px solid #4C58EE;
+    margin: 40px 10% 60px 10%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background: #4C58EE;
+    text-decoration: none;
+}
+
+.select-time-content{
+    position: fixed;
+    top: 0;
+    padding: 5px 0;
+    padding-left: 10%;
+    background: #FFF;
+    height: 100%;
+    overflow-y: auto ;
+}
+
+.form-input{
+    width: 250px;
+    height: 25px;
+    margin: 5px 20px;
+}
+
+.form-area{
+    margin: 5px 20px;
+}
+
+.err{
+    color: #FF0000;
+    font-size: 12px;
+    margin: 0 25px;
+    display: none;
+}
+
+em{
+    color:#FF0000;
+}
+
+.clear{
+    clear:both;
+}

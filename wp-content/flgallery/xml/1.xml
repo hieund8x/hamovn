@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+	<galleryName>3D Gallery</galleryName>
+	<settings>
+		<slideshowDelay>2</slideshowDelay>
+		<cameraZoom>0.6</cameraZoom>
+		<position
+			xAngle="15"
+			yAngle="-30"
+		/>
+		<transition
+			effect="random"
+			duration="2"
+			columns="4"
+			lines="1"
+			withDelay="false"
+			rotationDirection="fromLeftToRight"
+		/>
+		<plate
+			color="0x999999"
+			sideColor="0x333333"
+			sideThickness="15"
+			useShadow="true"
+			shadowAlpha="50"
+		/>
+		<caption
+			fontName="Arial"
+			fontSize="12"
+			textColor="0xffffff"
+			bgColor="0x000000"
+			bgAlpha="60"
+			frameColor="0xffffff"
+			frameAlpha="40"
+		/>
+		<picasa
+			user=""
+			albumID=""
+		/>
+		<flickr
+			userID=""
+			photosetID=""
+			tags=""
+		/>
+		<loader>true</loader>
+	</settings>
+	<items>
+	</items>
+</gallery>

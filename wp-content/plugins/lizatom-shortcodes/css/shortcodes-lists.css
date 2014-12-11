@@ -1,0 +1,13 @@
+/*====================================================================================================
+ * L I S T S                                                                               L I S T S *
+ =====================================================================================================*/
+
+ul.lizatom-list li,
+ul.lizatom-list li ul li{ list-style-type: none; }
+ul.lizatom-list li       { padding: 0 0 0px 30px; line-height: 20px; }
+ul.lizatom-list li ul    { margin-left: 0px; }
+ul.lizatom-list.cross li    { background: url(sexybuttons/images/icons/silk/cross.png) no-repeat left center; }
+ul.lizatom-list.tick li     { background: url(sexybuttons/images/icons/silk/tick.png) no-repeat left center; }
+ul.lizatom-list.play li     { background: url(sexybuttons/images/icons/silk/play.png) no-repeat left center; }
+ul.lizatom-list.thumb_up li { background: url(sexybuttons/images/icons/silk/thumb_up.png) no-repeat left center; }
+ul.lizatom-list.dot li      { background: url(sexybuttons/images/icons/silk/dot.png) no-repeat left center; }

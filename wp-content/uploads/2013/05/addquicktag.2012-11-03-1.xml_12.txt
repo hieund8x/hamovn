@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buttons>
+	<quicktag>
+		<text><![CDATA[Download]]></text>
+		<title/>
+		<start><![CDATA[<div class="download">
+	<h4>Download</h4>
+	<p>Please wait for 15 seconds, Your donwnloading will start soon. You can start you download manually.
+]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Edit]]></text>
+		<title/>
+		<start><![CDATA[<div class="edit">
+	<h4>Edit</h4>
+	<p>You are ready to edit your saved information.</p>
+</div>]]></start>
+		<end/>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Error]]></text>
+		<title/>
+		<start><![CDATA[<div class="error">
+	<h4>Error</h4>
+	<p>A critical Error has occured.]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Infomation]]></text>
+		<title/>
+		<start><![CDATA[<div class="information">
+	<h4>Information</h4>
+	<p>This is informative Notification]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[NextPage]]></text>
+		<title/>
+		<start><![CDATA[<!--nextpage-->]]></start>
+		<end/>
+		<access><![CDATA[np]]></access>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment>1</comment>
+		<edit-comments>1</edit-comments>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Print]]></text>
+		<title/>
+		<start><![CDATA[<div class="print">
+	<h4>Print Notification</h4>
+	<p>You are ready to Print your Document/ Web page.]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Purchase]]></text>
+		<title/>
+		<start><![CDATA[<div class="purchase">
+	<h4>Purchase</h4>
+	<p>To purchase the item, press Confirm.]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Register]]></text>
+		<title/>
+		<start><![CDATA[<div class="register">
+	<h4>Registered</h4>
+	<p>You have successfully registered to web-site/ forum</p>
+</div>]]></start>
+		<end/>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Secure]]></text>
+		<title/>
+		<start><![CDATA[<div class="secure">
+	<h4>Secure Notification</h4>
+	<p>You are on Secure page. Please enter username and Password to login]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Sucess]]></text>
+		<title/>
+		<start><![CDATA[<div class="success">
+	<h4>Success</h4>
+	<p>You have successfully performed all the required steps.]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Tip]]></text>
+		<title/>
+		<start><![CDATA[<div class="tip">
+	<h4>Tips and Tricks</h4>
+	<p>You have a new tips.</p>
+</div>]]></start>
+		<end/>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Undconst]]></text>
+		<title/>
+		<start><![CDATA[<div class="undconst">
+	<h4>Under Construction</h4>
+	<p>Site/ Page is Under Construction</p>
+</div>]]></start>
+		<end/>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Wait]]></text>
+		<title/>
+		<start><![CDATA[<div class="wait">
+	<h4>Wait</h4>
+	<p>Pleas wait... work is in Progress</p>
+</div>]]></start>
+		<end/>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+	<quicktag>
+		<text><![CDATA[Warning]]></text>
+		<title/>
+		<start><![CDATA[<div class="warning">
+	<h4>Warning</h4>
+	<p>You have a warning message]]></start>
+		<end><![CDATA[</p>
+</div>]]></end>
+		<access/>
+		<order/>
+		<visual>1</visual>
+		<post>1</post>
+		<page>1</page>
+		<comment/>
+		<edit-comments/>
+	</quicktag>
+</buttons>

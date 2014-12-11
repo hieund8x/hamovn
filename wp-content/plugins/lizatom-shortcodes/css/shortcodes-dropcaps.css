@@ -1,0 +1,120 @@
+/*====================================================================================================
+ * D R O P C A P S                                                                   D R O P C A P S *
+ =====================================================================================================*/
+/*rounded*/
+.lizatom-dropcap-rounded, .lizatom-dropcap-rounded-with-ring {
+	float: left;
+	text-align: center;
+	overflow:hidden;
+}
+.lizatom-dropcap-rounded {
+	background:url("../images/dropcaps/dropcap-black.png") no-repeat scroll 0px -48px transparent;
+	color:#fff;
+	line-height: 42px;
+	width: 40px;
+	margin:0 8px -4px 0;
+	font-size: 32px;
+}
+.lizatom-dropcap-rounded.black {
+	background-image:url("../images/dropcaps/dropcap-black.png");
+}
+.lizatom-dropcap-rounded.gray {
+	background-image:url("../images/dropcaps/dropcap-gray.png");
+}
+.lizatom-dropcap-rounded.red {
+	background-image:url("../images/dropcaps/dropcap-red.png");
+}
+.lizatom-dropcap-rounded.orange {
+	background-image:url("../images/dropcaps/dropcap-orange.png");
+}
+.lizatom-dropcap-rounded.magenta {
+	background-image:url("../images/dropcaps/dropcap-magenta.png");
+}
+.lizatom-dropcap-rounded.yellow {
+	background-image:url("../images/dropcaps/dropcap-yellow.png");
+}
+.lizatom-dropcap-rounded.blue {
+	background-image:url("../images/dropcaps/dropcap-blue.png");
+}
+.lizatom-dropcap-rounded.pink {
+	background-image:url("../images/dropcaps/dropcap-pink.png");
+}
+.lizatom-dropcap-rounded.green {
+	background-image:url("../images/dropcaps/dropcap-green.png");
+}
+
+/*with ring*/
+.lizatom-dropcap-rounded-with-ring {
+	background:url("../images/dropcaps/dropcap-black.png") no-repeat scroll -52px 2px transparent;
+	color:#fff;
+	line-height: 44px;
+	height:44px;
+	width: 38px;
+	padding:0 2px 0 0;
+	margin:0 8px -4px 0;
+	font-size:28px;
+}
+.lizatom-dropcap-rounded-with-ring.black {
+	background-image:url("../images/dropcaps/dropcap-black.png");
+}
+.lizatom-dropcap-rounded-with-ring.gray {
+	background-image:url("../images/dropcaps/dropcap-gray.png");
+}
+.lizatom-dropcap-rounded-with-ring.red {
+	background-image:url("../images/dropcaps/dropcap-red.png");
+}
+.lizatom-dropcap-rounded-with-ring.orange {
+	background-image:url("../images/dropcaps/dropcap-orange.png");
+}
+.lizatom-dropcap-rounded-with-ring.magenta {
+	background-image:url("../images/dropcaps/dropcap-magenta.png");
+}
+.lizatom-dropcap-rounded-with-ring.yellow {
+	background-image:url("../images/dropcaps/dropcap-yellow.png");
+}
+.lizatom-dropcap-rounded-with-ring.blue {
+	background-image:url("../images/dropcaps/dropcap-blue.png");
+}
+.lizatom-dropcap-rounded-with-ring.pink {
+	background-image:url("../images/dropcaps/dropcap-pink.png");
+}
+.lizatom-dropcap-rounded-with-ring.green {
+	background-image:url("../images/dropcaps/dropcap-green.png");
+}
+/*simple*/
+.lizatom-dropcap-simple {
+	line-height: 44px;
+	height:44px;
+	width: 30px;
+	padding: 0 2px 0 0;
+	margin:0 0px -4px 0;
+	font-size: 36px;
+    float: left;
+}
+.lizatom-dropcap-simple.black {
+	color:  #000;
+}
+.lizatom-dropcap-simple.gray {
+	color:  #626262;
+}
+.lizatom-dropcap-simple.red {
+	color:  #DA5454;
+}
+.lizatom-dropcap-simple.orange {
+	color:  #EB7939;
+}
+.lizatom-dropcap-simple.magenta {
+	color:  #B23D71;
+}
+.lizatom-dropcap-simple.yellow {
+	color:  #ECB848;
+}
+.lizatom-dropcap-simple.blue {
+	color:  #35AEDB;
+}
+.lizatom-dropcap-simple.pink {
+	color:  #DD55A5;
+}
+.lizatom-dropcap-simple.green {
+	color:  #9AB93B;
+}

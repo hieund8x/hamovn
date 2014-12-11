@@ -1,0 +1,33 @@
+/*====================================================================================================
+ * B L O C K Q U O T E                                                             B L O C K Q U O T E *
+ =====================================================================================================*/
+blockquote {
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 16px;
+	color:#444;
+	line-height: 24px;
+	padding: 10px 20px 10px 45px;
+	background:url("../images/blockquote/quote.gif") no-repeat scroll 0px 6px transparent;
+}
+blockquote p {
+	margin-bottom:8px;
+}
+blockquote.alignleft {
+    float: left;
+	margin: 10px 20px 0 0;
+	width: 220px;
+}
+blockquote.alignright {
+    float: right;
+	margin: 10px 0 0 20px;
+	width: 220px;
+}
+blockquote.alignnone {
+    float: none;
+	width:  auto;
+    margin: 10px 0 0 0;
+}
+blockquote cite {
+	color: #666;
+	font-size: 12px;
+}

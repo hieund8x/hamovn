@@ -1,0 +1,44 @@
+#lt-generator-wrap { display: none }
+#lt-generator {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+#lt-generator-shell { padding: 20px 10px }
+#lt-generator-settings {
+	padding: 20px;
+	border: 1px dashed #ccc;
+}
+#lt-generator-header {
+	height: 30px;
+	margin-bottom: 20px;
+}
+#lt-generator-select { width: 400px }
+#lt-generator-tools {
+	float: right;
+	padding-top: 5px;
+}
+#lt-generator-tools a { margin-left: 10px }
+#lt-generator-settings label {
+	float: left;
+	display: block;
+	width: 200px;
+	padding: 5px;
+	border-bottom: 1px dotted #ccc;
+}
+#lt-generator-settings input[type="text"] {
+	width: 300px;
+	padding: 5px 8px;
+}
+#lt-generator-settings select { width: 300px }
+.lt-loading-animation {
+	min-height: 100px;
+	background: 50% 50% url(../images/admin/loading.gif) no-repeat;
+}
+.lt-loading-animation * { display: none }
+#lt-generator-insert {
+	color: #fff !important;
+	font-weight: bold;
+}

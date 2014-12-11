@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gallery>
+	<galleryName>Art Gallery</galleryName>
+	<settings>
+		<image
+			align="center"
+			cornerRadius="10"
+			scaleMode="fill"
+			transitionEffect="fade"
+			transitionDuration="1"
+			useShadow="true"
+		/>
+		<thumbBar
+			useThumbBar="true"
+			position="bottom"
+			scrollSpeed="10"
+		/>
+		<thumbnail
+			width="60"
+			height="40"
+			cornerRadius="0"
+			alpha="70"
+			outlineColor="0xffffff"
+			outlineColorOnRollOver="0xffffff"
+			outlineColorOnClick="0x8b0000"
+			useShadow="true"
+		/>
+		<preview
+			usePreview="true"
+			alpha="100"
+			width="200"
+			height="100"
+			outlineColor="0xffffff"
+			useShadow="true"
+			cornerRadius="0"
+		/>
+		<caption
+			visibleMode="onRollOver"
+			position="bottom"
+			color="0xffffff"
+			bgColor="0x000000"
+			bgAlpha="30"
+			fontName="Verdana"
+			fontSize="12"
+		/>
+		<slideshow
+			start="false"
+			delay="3"
+			loop="true"
+			stopAutoOnClick="true"
+		/>
+		<preloader
+			usePreloader="true"
+			alpha="100"
+		/>
+		<buttons
+			fullScreenButton="true"
+			navigationButtons="true"
+			slideshowButton="true"
+		/>
+		<sounds
+			onRollOver=""
+			onClick=""
+		/>
+		<picasa
+			user=""
+			albumID=""
+		/>
+		<flickr
+			userID=""
+			photosetID=""
+			tags=""
+		/>
+		<loader>true</loader>
+	</settings>
+	<items>
+		<item source="/wordpress/wp-content/flgallery/images/20o5ps02.jpg" thumb="/wordpress/wp-content/flgallery/tmp/img-20o5ps02.400x300.jpg" description="" link="" target="" />
+		<item source="/wordpress/wp-content/flgallery/images/avy2e929.jpg" thumb="/wordpress/wp-content/flgallery/tmp/img-avy2e929.400x300.jpg" description="" link="" target="" />
+		<item source="/wordpress/wp-content/flgallery/images/f9nduzba.jpg" thumb="/wordpress/wp-content/flgallery/tmp/img-f9nduzba.400x300.jpg" description="" link="" target="" />
+	</items>
+</gallery>

@@ -1,0 +1,700 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Motion Picture v1.5.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-06 16:51:38+0000\n"
+"Last-Translator: vail <vail@obox.co.za>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:28
+#: archives.php:60
+#@ default
+msgid "comments"
+msgstr ""
+
+#: comments.php:8
+#, php-format
+#@ ocmx
+msgid "One Comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comment on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:19
+#@ ocmx
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:20
+#@ ocmx
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:21
+#@ ocmx
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:29
+#@ ocmx
+msgid "Comments are closed."
+msgstr ""
+
+#: functions/fetch-list.php:27
+#: functions/fetch-post.php:47
+#: functions/fetch-video.php:36
+#@ default
+msgid " by "
+msgstr ""
+
+#: functions/fetch-list.php:28
+#: functions/fetch-post.php:49
+#: functions/fetch-video.php:38
+#@ default
+msgid " in "
+msgstr ""
+
+#: functions/fetch-list.php:54
+#@ ocmx
+msgid "Continue Reading"
+msgstr ""
+
+#: functions/fetch-list.php:56
+#@ ocmx
+msgid "0 Comments"
+msgstr ""
+
+#: functions/fetch-list.php:56
+#@ ocmx
+msgid "1 Comment"
+msgstr ""
+
+#: functions/fetch-list.php:56
+#@ ocmx
+msgid "% Comments"
+msgstr ""
+
+#: functions/fetch-list.php:75
+#: functions/fetch-post.php:100
+#@ ocmx
+msgid "Short Url"
+msgstr ""
+
+#: functions.php:83
+#@ $themename
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:84
+#@ $themename
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:204
+#: ocmx/front-end/post-functions.php:10
+#@ default
+#@ ocmx
+msgid "Page Not Found"
+msgstr ""
+
+#: functions.php:207
+#@ default
+msgid "The page you are looking for does not exist"
+msgstr ""
+
+#: header.php:21
+#, php-format
+#@ ocmx
+msgid "Page %s"
+msgstr ""
+
+#: ocmx/custom.php:39
+#@ default
+msgid "Excerpt"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:8
+#@ ocmx
+msgid "Archives"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:16
+#@ ocmx
+msgid "Your Search Results for:"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:45
+#@ default
+msgid "Features"
+msgstr ""
+
+#: ocmx/front-end/post-functions.php:47
+#@ default
+msgid "Portfolio"
+msgstr ""
+
+#: ocmx/includes/comments.php:13
+#@ ocmx
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ocmx/includes/comments.php:17
+#@ ocmx
+msgid "(Edit)"
+msgstr ""
+
+#: ocmx/includes/comments.php:19
+#, php-format
+#@ default
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ocmx/includes/media.php:59
+#@ default
+msgid "Could not read image size"
+msgstr ""
+
+#: ocmx/includes/media.php:109
+#: ocmx/includes/media.php:112
+#: ocmx/includes/media.php:117
+#@ default
+msgid "Resize path invalid"
+msgstr ""
+
+#: ocmx/includes/update-class.php:25
+#@ default
+msgid "Invalid Data provided."
+msgstr ""
+
+#: ocmx/includes/update-class.php:26
+#@ default
+msgid "Could not access filesystem."
+msgstr ""
+
+#: ocmx/includes/update-class.php:27
+#@ default
+msgid "Filesystem error."
+msgstr ""
+
+#: ocmx/includes/update-class.php:28
+#@ default
+msgid "Unable to locate WordPress Root directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:29
+#@ default
+msgid "Unable to locate WordPress Content directory (wp-content)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:30
+#@ default
+msgid "Unable to locate WordPress Plugin directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:31
+#@ default
+msgid "Unable to locate WordPress Theme directory."
+msgstr ""
+
+#. translators: %s: directory name
+#: ocmx/includes/update-class.php:33
+#, php-format
+#@ default
+msgid "Unable to locate needed folder (%s)."
+msgstr ""
+
+#: ocmx/includes/update-class.php:35
+#@ default
+msgid "Download failed."
+msgstr ""
+
+#: ocmx/includes/update-class.php:36
+#@ default
+msgid "Installing the latest version&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:37
+#@ default
+msgid "Destination folder already exists."
+msgstr ""
+
+#: ocmx/includes/update-class.php:38
+#@ default
+msgid "Could not create directory."
+msgstr ""
+
+#: ocmx/includes/update-class.php:39
+#@ default
+msgid "Incompatible Archive."
+msgstr ""
+
+#: ocmx/includes/update-class.php:41
+#@ default
+msgid "Enabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/includes/update-class.php:42
+#@ default
+msgid "Disabling Maintenance mode&#8230;"
+msgstr ""
+
+#: ocmx/interface/adverts.php:14
+#@ default
+msgid "You have not set any adverts."
+msgstr ""
+
+#: ocmx/interface/fonts.php:46
+#@ default
+msgid "Current Font"
+msgstr ""
+
+#: ocmx/interface/fonts.php:72
+#@ default
+msgid ""
+"Below is a general overview of the typography and color changes that you have made to your theme.\n"
+"            The reason for this page is for you to get an idea of how your style selection looks in combination with eachother thereby allowing you to get the right balance between the elements."
+msgstr ""
+
+#: ocmx/interface/form-items.php:42
+#: ocmx/interface/form-items.php:44
+#@ default
+msgid "All"
+msgstr ""
+
+#: ocmx/interface/form-items.php:46
+#@ default
+msgid "Use a Custom Description"
+msgstr ""
+
+#: ocmx/interface/form-items.php:135
+#@ default
+msgid "Browse"
+msgstr ""
+
+#: ocmx/interface/form-items.php:136
+#@ default
+msgid "Clear"
+msgstr ""
+
+#: ocmx/interface/form-items.php:138
+#@ default
+msgid "Your  will not be automatically resized."
+msgstr ""
+
+#: ocmx/interface/form-items.php:146
+#@ default
+msgid "Select from previously uploaded 's"
+msgstr ""
+
+#: ocmx/interface/gallery.php:48
+#: ocmx/widgets/video-widget.php:91
+#@ default
+#@ ocmx
+msgid "Title"
+msgstr ""
+
+#: ocmx/interface/gallery.php:52
+#@ default
+msgid "Description"
+msgstr ""
+
+#: ocmx/interface/gallery.php:59
+#@ default
+msgid "Gallery Date"
+msgstr ""
+
+#: ocmx/interface/gallery.php:66
+#@ default
+msgid "Effects"
+msgstr ""
+
+#: ocmx/interface/gallery.php:102
+#@ default
+msgid "Apply special effected to all the images in this gallery."
+msgstr ""
+
+#: ocmx/interface/gallery.php:113
+#@ default
+msgid "Add images to your gallery (maximum of 10 at a time, images larger than <strong>2mb</strong> will not upload)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:114
+#@ default
+msgid "You have not selected any images"
+msgstr ""
+
+#: ocmx/interface/gallery.php:124
+#@ default
+msgid "Image Dimensions"
+msgstr ""
+
+#: ocmx/interface/gallery.php:126
+#@ default
+msgid "Unless you customize your theme, dimensions will not need to be changed. These options will determain how large your images are when viewing the Gallery."
+msgstr ""
+
+#: ocmx/interface/gallery.php:130
+#@ default
+msgid "Small Image Dimensions (px)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:131
+#: ocmx/interface/gallery.php:140
+#@ default
+msgid "Width"
+msgstr ""
+
+#: ocmx/interface/gallery.php:134
+#: ocmx/interface/gallery.php:143
+#@ default
+msgid "Height"
+msgstr ""
+
+#: ocmx/interface/gallery.php:139
+#@ default
+msgid "Large Image Dimensions (px)"
+msgstr ""
+
+#: ocmx/interface/gallery.php:146
+#@ default
+msgid "Proportions will automatically be constrained, with the larger value prioritized. Set Height or Width to 0 (zero) to ignore."
+msgstr ""
+
+#: ocmx/interface/gallery.php:172
+#@ default
+msgid "Image Title"
+msgstr ""
+
+#: ocmx/interface/gallery.php:176
+#@ default
+msgid "Caption"
+msgstr ""
+
+#: ocmx/interface/gallery.php:182
+#@ default
+msgid "Album Cover"
+msgstr ""
+
+#: ocmx/interface/gallery.php:205
+#: ocmx/interface/general.php:15
+#: ocmx/interface/layout.php:53
+#@ default
+msgid "label"
+msgstr ""
+
+#: ocmx/interface/gallery.php:209
+#: ocmx/interface/general.php:17
+#: ocmx/interface/layout.php:59
+#@ default
+msgid "description"
+msgstr ""
+
+#: ocmx/interface/general.php:10
+#: ocmx/interface/layout.php:29
+#@ default
+msgid "main_section"
+msgstr ""
+
+#: ocmx/interface/general.php:12
+#@ default
+msgid "main_description"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:22
+#@ ocmx
+msgid "Your changes were successful."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:24
+#@ ocmx
+msgid "These Options Have Been Reset."
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:32
+#: ocmx/interface/ocmx-container.php:89
+#@ ocmx
+msgid "Reset"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:42
+#@ default
+msgid "top_buttonhtml"
+msgstr ""
+
+#: ocmx/interface/ocmx-container.php:97
+#@ default
+msgid "base_buttonhtml"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:6
+#@ ocmx
+msgid "General Theme Settings"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:19
+#@ ocmx
+msgid "Use Theme Default Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:38
+#@ ocmx
+msgid "Custom Logo"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:51
+#@ ocmx
+msgid "Custom Favicon"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:67
+#@ ocmx
+msgid "Header Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:79
+#@ ocmx
+msgid "Header Container"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:91
+#@ ocmx
+msgid "Header Container Borders"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:104
+#@ ocmx
+msgid "Navigation Container"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:117
+#@ ocmx
+msgid "Navigation Links"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:130
+#@ ocmx
+msgid "Navigation Hover"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:139
+#@ ocmx
+msgid "Content Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:151
+#@ ocmx
+msgid "Post Content Background"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:164
+#@ ocmx
+msgid "Post Titles Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:177
+#@ ocmx
+msgid "Post Titles Hover Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:190
+#@ ocmx
+msgid "Section Titles"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:203
+#@ ocmx
+msgid "Date Text"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:216
+#@ ocmx
+msgid "General Body Text Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:229
+#@ ocmx
+msgid "Post Copy Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:242
+#@ ocmx
+msgid "General Link Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:255
+#@ ocmx
+msgid "General Link Color Hover"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:268
+#@ ocmx
+msgid "Content Borders Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:282
+#@ ocmx
+msgid "Post Meta"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:296
+#@ ocmx
+msgid "Post Meta Text"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:310
+#@ ocmx
+msgid "Button Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:324
+#@ ocmx
+msgid "Button Hover Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:334
+#@ ocmx
+msgid "Footer Color Scheme"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:347
+#@ ocmx
+msgid "Footer Container"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:361
+#@ ocmx
+msgid "Footer Widget Titles"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:375
+#@ ocmx
+msgid "Footer Links"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:389
+#@ ocmx
+msgid "Footer Links Hover"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:403
+#@ ocmx
+msgid "Footer Text Color"
+msgstr ""
+
+#: ocmx/theme-setup/customize.php:417
+#@ ocmx
+msgid "Footer Borders Color"
+msgstr ""
+
+#: ocmx/theme-setup/post-types.php:5
+#: ocmx/theme-setup/post-types.php:6
+#@ default
+msgid "Gallery"
+msgstr ""
+
+#: ocmx/widgets/advert-widget.php:6
+#@ default
+msgid "(Obox) 125px Adverts"
+msgstr ""
+
+#: ocmx/widgets/latest-comments.php:6
+#@ default
+msgid "(Obox) Comments"
+msgstr ""
+
+#: ocmx/widgets/latest-comments.php:16
+#@ default
+msgid "Recent Comments"
+msgstr ""
+
+#: ocmx/widgets/medium-advert-widget.php:6
+#@ default
+msgid "(Obox) 300px Adverts"
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:5
+#@ ocmx
+msgid "Popular Posts widget."
+msgstr ""
+
+#: ocmx/widgets/popular-posts-widget.php:6
+#@ ocmx
+msgid "(Obox) Popular Posts"
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:5
+#@ default
+msgid "OCMX - Search box "
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:6
+#@ default
+msgid "(Obox) Search Box"
+msgstr ""
+
+#: ocmx/widgets/search-widget.php:16
+#@ default
+msgid "Search"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:59
+#: ocmx/widgets/video-widget.php:66
+#@ ocmx
+msgid "Previous"
+msgstr ""
+
+#: ocmx/widgets/slider-widget.php:60
+#: ocmx/widgets/video-widget.php:67
+#@ ocmx
+msgid "Next"
+msgstr ""
+
+#: ocmx/widgets/social-widget.php:47
+#@ ocmx
+msgid "Social Links"
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:5
+#@ ocmx
+msgid "(Obox) Twitter Stream"
+msgstr ""
+
+#: ocmx/widgets/twitter-widget.php:5
+#@ ocmx
+msgid "Display your latest Tweets."
+msgstr ""
+
+#: ocmx/widgets/video-widget.php:5
+#@ default
+msgid "Display your videos in a neat fading widget."
+msgstr ""
+
+#: ocmx/widgets/video-widget.php:6
+#@ default
+msgid "(Obox) Videos"
+msgstr ""
+
+#: ocmx/widgets/video-widget.php:95
+#@ ocmx
+msgid "Category"
+msgstr ""
+
+#: search.php:5
+#@ default
+msgid "Your Search Results for"
+msgstr ""
+

@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine off
+</IfModule>
+AuthName "MySQLDumper"
+AuthType Basic
+AuthUserFile "D:/WWW/FTP DIRECTORY/hamo.vn/mds2014/.htpasswd"
+require valid-user

@@ -1,0 +1,11 @@
+/*====================================================================================================
+ * A C C O R D I O N S                                                           A C C O R D I O N S *
+ =====================================================================================================*/
+
+.lizatom-accordion dd.current        { display: block; }
+.lizatom-accordion                   { font-size: 12px; margin-left: 0; }
+.lizatom-accordion dt                { width: auto; border: 1px solid #e9e9e9; border-radius: 5px; margin-bottom: 4px; font-weight: 500; background-image: url(../images/accordion/accordion-bg.png); background-position: bottom left; background-repeat: repeat-x; position: relative; cursor: pointer; padding: 20px 20px 20px 50px; }
+.lizatom-accordion dd                { display: none; padding: 10px 10px 20px 10px; margin-bottom: 0; }
+.lizatom-accordion dd p:first-child  { margin-top: 8px; }
+.lizatom-accordion dt:before         { content: url(../images/accordion/accordion-open.png); position: absolute; left: 15px; top: 50%; margin-top: -12px; }
+.lizatom-accordion dt.current:before { content: url(../images/accordion/accordion-close.png); }

@@ -1,0 +1,53 @@
+/*====================================================================================================
+ * T A B L E                                                                               T A B L E *
+ =====================================================================================================*/
+
+.lizatom-table { position: relative; display: block; margin: 20px auto; min-height:  100px; font-family: Tahoma;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;	
+}
+.lizatom-table-col { display: block; float: left; width: 200px; background-color: #DBDBDB; border-right: 1px solid #BEBEBE; }
+.lizatom-table .lizatom-table-col:last-child { border-right: none; }
+.lizatom-table-col-name { height: 24px; line-height: 24px; text-align: center; background-color: #0C0C0C; color: #F4F4F4; }
+.lizatom-table-col-price { position: relative; height: 90px; line-height: 90px; text-align: center; background-color: #2C2C2C; color: #F4F4F4; text-shadow: 2px 2px 2px #000; font-size: 60px; }
+.lizatom-table-col-price sup { position: relative; font-size: 40px; color: #7F7F7F; }
+.lizatom-table-col-price span.sub { font-size: 20px; color: #7F7F7F; }
+
+ul.lizatom-table-col-items { list-style: none; padding: 0 0px 0 0px; margin: 0 0 0 0; font-size: 12px; }
+ul.lizatom-table-col-items li { padding: 0 15px 0 45px; line-height: 40px; background-color: #E3E3E3; border-bottom: 1px solid #BEBEBE; }
+ul.lizatom-table-col-items li.yes { background: url(sexybuttons/images/icons/silk/tick.png) no-repeat 15px center; }
+ul.lizatom-table-col-items li.no { background: url(sexybuttons/images/icons/silk/cross.png) no-repeat 15px center; }
+
+ul.lizatom-table-col-items li:nth-child(even) { background-color: #F6F6F6; }
+
+ul.lizatom-table-col-items li:last-child { border-bottom: none; padding: 20px 15px 28px 15px; }
+ul.lizatom-table-col-items li a.sexybutton { width: 140px; }
+
+.lizatom-table-col
+	{
+	/* transitions */
+	-webkit-transition: box-shadow 0.25s ease;
+	-moz-transition: box-shadow 0.25s ease;
+	-o-transition: box-shadow 0.25s ease;
+	-ms-transition: box-shadow 0.25s ease;
+	transition: box-shadow 0.25s ease;	
+	}
+
+.lizatom-table-col:hover
+	{
+	position: relative;
+	z-index: 100;
+	left: -5px;
+	top: -15px;
+	/* shadow */
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 30px rgba(0,0,0,0.5);
+	}
+.lizatom-table-col:hover ul li { padding-bottom: 2px; padding-top: 2px; } 
+.lizatom-table-col:hover .lizatom-table-col-name { width: 220px !important; }
+.lizatom-table-col:hover .lizatom-table-col-price { width: 220px !important; }
+.lizatom-table-col:hover ul li { width: 160px !important; background-color: #E3E3E3; }
+.lizatom-table-col:hover ul li:nth-child(even) { width: 160px !important; background-color: #F6F6F6; }
+.lizatom-table-col:hover ul li:last-child { width: 190px !important; padding-top: 25px; padding-bottom: 25px; }

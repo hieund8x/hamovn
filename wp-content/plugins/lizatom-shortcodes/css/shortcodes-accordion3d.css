@@ -1,0 +1,705 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+/* #Container =====================================================*/
+	ul.ltac3d-container {
+		top:20px;
+		margin: 0px auto;
+		width: 50%; /*change this to your desire width*/
+		position: relative;
+		padding: 0px;
+		background: #fbfbfb;
+		border: 1px solid #7d7d7d;
+		border-bottom: none;
+		list-style: none;
+
+		border-radius: 3px 3px 0 0;
+		-webkit-border-radius: 3px 3px 0 0;
+		-moz-border-radius: 3px 3px 0 0;
+		-o-border-radius: 3px 3px 0 0;
+		-ms-border-radius: 3px 3px 0 0;
+		-khtml-border-radius: 3px 3px 0 0;		
+		
+		box-shadow: 0 2px 5px rgba(0,0,0,0.28);
+		-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.28);
+		-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.28);
+		-o-box-shadow: 0 2px 5px rgba(0,0,0,0.28);
+		-ms-box-shadow: 0 2px 5px rgba(0,0,0,0.28);
+		-khtml-box-shadow:  0 2px 5px rgba(0,0,0,0.28);}
+		
+	ul.ltac3d-container:after,
+	ul.ltac3d-container:before{
+		content: '';
+		width: 96%;
+		height: 96%;
+		position: absolute;
+		left: 2%;
+		z-index: -1;
+		bottom: -4px;
+		background: #f2f2f2;
+		border: 1px solid #a1a1a1;
+		box-shadow: 0 2px 4px rgba(0,0,0,0.13);
+		-webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.13);
+		-moz-box-shadow: 0 2px 4px rgba(0,0,0,0.13);
+		-o-box-shadow: 0 2px 4px rgba(0,0,0,0.13);
+		-ms-box-shadow: 0 2px 4px rgba(0,0,0,0.13);
+		-khtml-box-shadow: 0 2px 4px rgba(0,0,0,0.13);}
+	
+	ul.ltac3d-container:before{
+		width: 92%;
+		bottom: -8px;
+		left: 4%;
+		background: #f2f2f2;
+		border: 1px solid #b9b9b9;}
+	
+	ul.ltac3d-container li {
+		background: #fbfbfb;}	
+
+/* #Label =====================================================*/	
+
+	.ltac3d-container li label{
+		display: block;
+		color: white;
+		padding: 10px;
+		cursor: pointer;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 15px;
+		font-weight: bold;
+		position: relative;
+		z-index: 50;
+		line-height: 26px;
+		text-shadow: 0 1px 0 rgba(0,0,0,0.6);	
+		background-color: #5ba6cc;
+		
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+		
+		transition: background-color 0.17s ease;
+		-webkit-transition: background-color 0.17s ease;
+		-moz-transition: background-color 0.17s ease;
+		-o-transition: background-color 0.17s ease;
+		-ms-transition: background-color 0.17s ease;}
+	
+	.ltac3d-container li label,
+	.ltac3d-container.anim-label-4 li label:before,
+	.ltac3d-container.anim-label-5 li label:before,
+	.ltac3d-container.anim-label-6 li label:before{
+		background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.10)), to(rgba(0, 0, 0, 0.50)));
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50));
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50));
+		background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50));
+		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50));
+		background-image: linear-gradient(top, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.50));
+		filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#000000', EndColorStr='#000000');
+		box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);
+		-webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);
+		-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);
+		-o-box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);
+		-ms-box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);
+		-khtml-box-shadow:inset 0 1px 0 rgba(255,255,255,0.16),inset 0 -1px 0px  rgba(0,0,0,0.25) , 0 2px 0px rgba(0,0,0,0.1);}
+	
+	ul.ltac3d-container li:first-child,
+	ul.ltac3d-container li:first-child label,
+	ul.ltac3d-container li:first-child label:before{
+		border-radius: 2px 2px 0 0;
+		-webkit-border-radius: 2px 2px 0 0;
+		-moz-border-radius: 2px 2px 0 0;
+		-o-border-radius: 2px 2px 0 0;
+		-ms-border-radius: 2px 2px 0 0;
+		-khtml-border-radius: 2px 2px 0 0;}
+		
+	ul.ltac3d-container li input{
+		display: none;}
+		
+	ul.ltac3d-container li label:hover{
+		background-color: grey;}
+		
+	.ltac3d-container li input:checked ~ label{
+		background-color: #5a5a5a;}
+
+/* #Article (opening tab) =====================================================*/
+	
+	ul.ltac3d-container li article{
+		height: 0;
+		overflow: hidden;
+		-webkit-transition: max-height 1s  ease;
+		-moz-transition: max-height 1s  ease;
+		-o-transition: max-height 1s  ease;
+		-ms-transition: max-height 1s  ease;
+		-khtml-transition: max-height 1s  ease;}
+		
+	ul.ltac3d-container li article p{
+		padding: 10px;
+		margin: 4px 13px ;
+		font-family:  Helvetica;
+		word-wrap: break-word;
+  	    color: #444444;
+  	    font-size: 13px; 
+	    line-height: 23px;}
+	
+	ul.ltac3d-container li article a{
+		text-decoration: none;
+		color: #6f2a31}
+	
+	ul.ltac3d-container li:last-child article{	
+	
+		border-bottom: 1px solid #7d7d7d;}
+	
+	ul.ltac3d-container li article iframe {
+		border: 1px solid #7d7d7d;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		-o-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		-ms-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		-khtml-box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+			
+	ul.ltac3d-container li input:checked ~ article {
+		height: auto;
+		max-height: 900px;}
+	 
+
+/* #Label Color =====================================================*/
+	
+	/*white*/	
+	.white li label, 
+	.strip-white li:nth-child(odd) label,
+	.ltac3d-container li label.white,
+	.random li:nth-child(1) label{
+		background-color: white;}
+	
+	/*grey*/	
+	.grey li label, 
+	.strip-grey li:nth-child(odd) label,
+	.ltac3d-container li label.grey,
+	.random li:nth-child(2) label{
+		background-color: #808080;}
+		
+	/*black*/	
+	.black li label, 
+	.strip-black li:nth-child(odd) label,
+	.ltac3d-container li label.black,
+	.random li:nth-child(3) label{
+		background-color: #404040;}
+		
+	/*pink*/	
+	.pink li label, 
+	.strip-pink li:nth-child(odd) label,
+	.ltac3d-container li label.pink,
+	.random li:nth-child(4) label{
+		background-color: #FFCCCC;}
+		
+	/*copperrose*/	
+	.copperrose li label, 
+	.strip-copperrose li:nth-child(odd) label,
+	.ltac3d-container li label.copperrose,
+	.random li:nth-child(5) label{
+		background-color: #996666;}
+		 
+	/*persianPlum*/	
+	.persianPlum li label, 
+	.strip-persianPlum li:nth-child(odd) label,
+	.ltac3d-container li label.persianPlum,
+	.random li:nth-child(6) label{
+		background-color: #663333;}
+		
+	/*maroon*/	
+	.maroon li label, 
+	.strip-maroon li:nth-child(odd) label,
+	.ltac3d-container li label.maroon,
+	.random li:nth-child(7) label{
+		background-color: #7F0000;}
+		
+	/*monaLisa*/	
+	.monaLisa li label, 
+	.strip-monaLisa li:nth-child(odd) label,
+	.ltac3d-container li label.monaLisa,
+	.random li:nth-child(8) label{
+		background-color: #FF9999;}
+		
+	/*red*/	
+	.red li label, 
+	.strip-red li:nth-child(odd) label,
+	.ltac3d-container li label.red,
+	.random li:nth-child(9) label{
+		background-color: #CC3333;}
+		
+	/*redOrange*/	
+	.redOrange li label, 
+	.strip-redOrange li:nth-child(odd) label,
+	.ltac3d-container li label.redOrange,
+	.random li:nth-child(10) label{
+		background-color: #ff3333;}
+		
+	/*atomic*/	
+	.atomic li label, 
+	.strip-atomic li:nth-child(odd) label,
+	.ltac3d-container li label.atomic,
+	.random li:nth-child(11) label{
+		background-color: #FF9966;}
+		
+	/*orange*/	
+	.orange li label, 
+	.strip-orange li:nth-child(odd) label,
+	.ltac3d-container li label.orange,
+	.random li:nth-child(12) label{
+		background-color: #FF6633;}	
+		
+	/*sangria*/	
+	.sangria li label, 
+	.strip-sangria li:nth-child(odd) label,
+	.ltac3d-container li label.sangria,
+	.random li:nth-child(13) label{
+		background-color: #993300;}
+		
+	/*indochine*/	
+	.indochine li label, 
+	.strip-indochine li:nth-child(odd) label,
+	.ltac3d-container li label.indochine,
+	.random li:nth-child(14) label{
+		background-color: #996633;}	
+		
+	/*yellow*/	
+	.yellow li label, 
+	.strip-yellow li:nth-child(odd) label,
+	.ltac3d-container li label.yellow,
+	.random li:nth-child(15) label{
+		background-color: #FFCC00;}
+		
+	/*cream*/	
+	.cream li label, 
+	.strip-cream li:nth-child(odd) label,
+	.ltac3d-container li label.cream,
+	.random li:nth-child(16) label{
+		background-color: #ffffcc;}	
+		
+	/*green*/	
+	.green li label, 
+	.strip-green li:nth-child(odd) label,
+	.ltac3d-container li label.green,
+	.random li:nth-child(17) label{
+		background-color: #336600;}	
+		
+	/*sushi*/	
+	.sushi li label, 
+	.strip-sushi li:nth-child(odd) label,
+	.ltac3d-container li label.sushi,
+	.random li:nth-child(18) label{
+		background-color: #669933;}	
+		
+	/*oxley*/	
+	.oxley li label, 
+	.strip-oxley li:nth-child(odd) label,
+	.ltac3d-container li label.oxley,
+	.random li:nth-child(19) label{
+		background-color: #519B4D;}	
+	
+	/*emerald*/	
+	.emerald li label, 
+	.strip-emerald li:nth-child(odd) label,
+	.ltac3d-container li label.emerald,
+	.random li:nth-child(20) label{
+		background-color: #66CC66;}	
+		
+	/*shamrock*/	
+	.shamrock li label, 
+	.strip-shamrock li:nth-child(odd) label,
+	.ltac3d-container li label.shamrock,
+	.random li:nth-child(21) label{
+		background-color: #33CC99;}	
+		
+	/*cadetBlue*/	
+	.cadetBlue li label, 
+	.strip-cadetBlue li:nth-child(odd) label,
+	.ltac3d-container li label.cadetBlue,
+	.random li:nth-child(22) label{
+		background-color: #669999;}	
+		
+	/*bluemine*/	
+	.bluemine li label, 
+	.strip-bluemine li:nth-child(odd) label,
+	.ltac3d-container li label.bluemine,
+	.random li:nth-child(23) label{
+		background-color: #336666;}	
+		
+	/*downy*/	
+	.downy li label, 
+	.strip-downy li:nth-child(odd) label,
+	.ltac3d-container li label.downy,
+	.random li:nth-child(24) label{
+		background-color: #66cccc;}	
+		
+	/*sky*/	
+	.sky li label, 
+	.strip-sky li:nth-child(odd) label,
+	.ltac3d-container li label.sky,
+	.random li:nth-child(25) label{
+		background-color: #33ccff;}	
+		
+	/*cerulean*/	
+	.cerulean li label, 
+	.strip-cerulean li:nth-child(odd) label,
+	.ltac3d-container li label.cerulean,
+	.random li:nth-child(26) label{
+		background-color: #006699;}	
+		
+	/*navyBlue*/	
+	.navyBlue li label, 
+	.strip-navyBlue li:nth-child(odd) label,
+	.ltac3d-container li label.navyBlue,
+	.random li:nth-child(27) label{
+		background-color: #0066cc;}	
+		
+	/*neonBlue*/	
+	.neonBlue li label, 
+	.strip-neonBlue li:nth-child(odd) label,
+	.ltac3d-container li label.neonBlue,
+	.random li:nth-child(28) label{
+		background-color: #3366ff;}	
+		
+	/*aarapawa*/	
+	.aarapawa li label, 
+	.strip-aarapawa li:nth-child(odd) label,
+	.ltac3d-container li label.aarapawa,
+	.random li:nth-child(29) label{
+		background-color: #304F60;}	
+		
+	/*blueBell*/	
+	.blueBell li label, 
+	.strip-blueBell li:nth-child(odd) label,
+	.ltac3d-container li label.blueBell,
+	.random li:nth-child(30) label{
+		background-color: #9999CC;}	
+		
+	/*scampi*/	
+	.scampi li label, 
+	.strip-scampi li:nth-child(odd) label,
+	.ltac3d-container li label.scampi,
+	.random li:nth-child(31) label{
+		background-color: #666699;}	
+		
+	/*purple*/	
+	.purple li label, 
+	.strip-purple li:nth-child(odd) label,
+	.ltac3d-container li label.purple,
+	.random li:nth-child(32) label{
+		background-color: #6F43A8;}	
+		
+	/*indigo*/	
+	.indigo li label, 
+	.strip-indigo li:nth-child(odd) label,
+	.ltac3d-container li label.indigo,
+	.random li:nth-child(33) label{
+		background-color: #660099;}	
+		
+	/*fuchsia*/	
+	.fuchsia li label, 
+	.strip-fuchsia li:nth-child(odd) label,
+	.ltac3d-container li label.fuchsia,
+	.random li:nth-child(34) label{
+		background-color: #cc66cc;}	
+		
+	/*neonPink*/	
+	.neonPink li label, 
+	.strip-neonPink li:nth-child(odd) label,
+	.ltac3d-container li label.neonPink,
+	.random li:nth-child(35) label{
+		background-color: #FF66CC;}	
+	
+	/*eggPlant*/	
+	.eggPlant li label, 
+	.strip-eggPlant li:nth-child(odd) label,
+	.ltac3d-container li label.eggPlant,
+	.random li:nth-child(36) label{
+		background-color: #990066;}	
+		
+	/*lipStick*/	
+	.lipStick li label, 
+	.strip-lipStick li:nth-child(odd) label,
+	.ltac3d-container li label.lipStick,
+	.random li:nth-child(37) label{
+		background-color: #993366;}	
+		
+	/*razzmatazz*/	
+	.razzmatazz li label, 
+	.strip-razzmatazz li:nth-child(odd) label,
+	.ltac3d-container li label.razzmatazz,
+	.random li:nth-child(38) label{
+		background-color: #ff0066;}	
+		
+	/*rose*/	
+	.rose li label, 
+	.strip-rose li:nth-child(odd) label,
+	.ltac3d-container li label.rose,
+	.random li:nth-child(39) label{
+		background-color: #cc3366;}	
+		
+	/*amaranth*/	
+	.amaranth li label, 
+	.strip-amaranth li:nth-child(odd) label,
+	.ltac3d-container li label.amaranth,
+	.random li:nth-child(40) label{
+		background-color: #E83A54;}	
+		
+	/*brown*/	
+	.brown li label, 
+	.strip-brown li:nth-child(odd) label,
+	.ltac3d-container li label.brown,
+	.random li:nth-child(41) label{
+		background-color: #6B343C;}	
+		
+	/*castro*/	
+	.castro li label, 
+	.strip-castro li:nth-child(odd) label,
+	.ltac3d-container li label.castro,
+	.random li:nth-child(42) label{
+		background-color: #492332;}	
+		
+	
+
+
+	/*random*/
+	
+/* Animate fade in for Aticle ==================================================== */
+	.anim-art li input:checked ~ article p{
+		 transform-origin: top;
+		 -webkit-transform-origin: top;
+		 -moz-transform-origin: top;
+		 -khtml-transform-origin: top;
+		 animation: fade-bounce  .7s ease normal;
+		 -webkit-animation: fade-bounce  .7s ease normal;
+		 -moz-animation: fade-bounce  .7s ease normal;
+		 -khtml-animation: fade-bounce  .7s ease normal;}
+	
+	@keyframes fade-bounce {
+		0% { transform: perspective(800px) translateY(-10px) translateZ(-40px) rotateX(-90deg);
+			opacity: 0;}
+		40% {transform: perspective(800px)  translateZ(0px) rotateX(10deg);}
+		70% {transform: perspective(800px)  translateZ(0px) rotateX(-5deg);}
+		 100% {transform: perspective(800px)  translateZ(0px) rotateX(0deg);
+		    opacity: 1;}}
+		    
+	@-webkit-keyframes fade-bounce {
+		0% { -webkit-transform: perspective(800px) translateY(-10px) translateZ(-40px) rotateX(-90deg);
+			opacity: 0;}
+		40% {-webkit-transform: perspective(800px)  translateZ(0px) rotateX(10deg);}
+		70% {-webkit-transform: perspective(800px)  translateZ(0px) rotateX(-5deg);}
+		 100% {-webkit-transform: perspective(800px)  translateZ(0px) rotateX(0deg);
+		    opacity: 1;}}
+		    
+	@-moz-keyframes fade-bounce {
+		0% { -moz-transform: perspective(800px) translateY(-10px) translateZ(-40px) rotateX(-90deg);
+			opacity: 0;}
+		40% {-moz-transform: perspective(800px)  translateZ(0px) rotateX(10deg);}
+		70% {-moz-transform: perspective(800px)  translateZ(0px) rotateX(-5deg);}
+		 100% {-moz-transform: perspective(800px)  translateZ(0px) rotateX(0deg);
+		    opacity: 1;}}
+		    
+	@-khtml-keyframes fade-bounce {
+		0% { -khtml-transform: perspective(800px) translateY(-10px) translateZ(-40px) rotateX(-90deg);
+			opacity: 0;}
+		40% {-khtml-transform: perspective(800px)  translateZ(0px) rotateX(10deg);}
+		70% {-khtml-transform: perspective(800px)  translateZ(0px) rotateX(-5deg);}
+		 100% {-khtml-transform: perspective(800px)  translateZ(0px) rotateX(0deg);
+		    opacity: 1;}}
+		
+	
+/* #Animate label  =====================================================*/
+
+/* #anim-label-1  */
+	.anim-label-1 li label,
+	.anim-label-2 li label,
+	.anim-label-3 li label,
+	.anim-label-4 li label,
+	.anim-label-5 li label,
+	.anim-label-6 li label{
+		transform: perspective(0px)  translateZ(0px) translateY(0px)  rotateX(0deg);
+		-webkit-transform: perspective(0px)  translateZ(0px) translateY(0px)  rotateX(0deg);
+		-moz-transform: perspective(0px)  translateZ(0px) translateY(0px)  rotateX(0deg);
+		-khtml-transform: perspective(0px)  translateZ(0px) translateY(0px)  rotateX(0deg);
+		transform-style: preserve-3d;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-origin:top;
+		-webkit-transform-origin: top;
+		-moz-transform-origin: top;}
+	
+	.anim-label-1 li label,
+	.anim-label-2 li label,
+	.anim-label-3 li label{
+		transition: all 0.2s ease;
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease; 
+		-o-transition: all 0.2s ease;
+		-ms-transition: all 0.2s ease;
+		-khtml-transition: all 0.2s ease;}
+	
+	.anim-label-1 label:hover{
+		transform: perspective(600px)  translateZ(0px) translateY(0px) rotateX(20deg) ;
+		-webkit-transform: perspective(600px)  translateZ(0px) translateY(0px) rotateX(20deg) ;
+		-moz-transform: perspective(600px)  translateZ(0px) translateY(0px) rotateX(20deg) ;
+		-khtml-transform: perspective(600px)  translateZ(0px) translateY(0px) rotateX(20deg) ;}
+	
+	.ltac3d-container.anim-label-1 input:checked ~ label:hover,
+	.ltac3d-container.anim-label-2 input:checked ~ label:hover,
+	.ltac3d-container.anim-label-3 input:checked ~ label:hover{
+		transform: none ;
+		-webkit-transform: none ;
+		-moz-transform:none ;
+		-o-transform:none ;
+		-ms-transform:none ;
+		-khtml-transform: none;}
+		
+/* #anim-label-2 =================================================== */
+	.anim-label-2 li label{
+		transform-origin:bottom !important;
+		-webkit-transform-origin: bottom !important;
+		-moz-transform-origin: bottom !important;}
+		
+	.anim-label-2 label:hover{
+		transform: perspective(600px)  translateZ(0px)  rotateX(-20deg) translateY(0px) ;
+		-webkit-transform: perspective(600px)  translateZ(0px) translateY(0px)  rotateX(-20deg) ;
+		-moz-transform: perspective(600px)  translateZ(0px) translateY(0px) rotateX(-20deg) ;
+		-khtml-transform: perspective(600px)  translateZ(0px) rotateX(-20deg) translateY(0px);}
+
+/* #anim-label-3 =================================================== */
+	.anim-label-3 label:hover{
+		transform:scale(1.05) ;
+		-webkit-transform: scale(1.05)  ;
+		-moz-transform: scale(1.05)  ;
+		-o-transform: scale(1.05)  ;
+		-ms-transform: scale(1.05)  ;
+		-khtml-transform: scale(1.05) ;}
+
+/* #anim-label-4 =================================================== */
+	.anim-label-4 li label:before,
+	.anim-label-6 li label:before{
+		content: attr(title);
+		line-height: 45px;
+		text-indent: 10px;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		color: white;
+		left: 0;
+		top:20px;
+		background-color: #5a5a5a;
+		
+		transform:translateZ(-23px) rotateX(-90deg);
+		-webkit-transform:translateZ(-23px) rotateX(-90deg);
+		-moz-transform:translateZ(-23px) rotateX(-90deg);
+		-o-transform: matrix(1,0,0,0,0,0);
+		-ms-transform: matrix(1,0,0,0,0,0);
+		-khtml-transform:translateZ(-23px) rotateX(-90deg);}
+	
+	.ltac3d-container.anim-label-4 input:checked ~ label{
+		background-color: #adadad;
+		animation: flipup .8s forwards  normal ease ;
+		-webkit-animation: flipup .8s forwards   normal ease ;
+		-moz-animation: flipup .8s  forwards normal ease ;
+		-khtml-animation: flipup .8s forwards  normal ease ;}
+		
+	.ltac3d-container.anim-label-4 input:checked ~ label:hover{
+		-moz-transform: none;
+	}
+	
+	@keyframes flipup{
+		0%{ transform:  perspective(600px)  translateZ(0px) rotateX(0deg) ;}
+		40%{ transform: perspective(800px)  translateZ(-43px) rotateX(100deg) ;}
+		70%{ transform: perspective(1000px)  translateZ(-43px) rotateX(87deg) ;}
+		100%{ transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;}}
+		
+	@-webkit-keyframes flipup{
+		0%{ -webkit-transform:  perspective(600px)  translateZ(0px) rotateX(0deg) ;}
+		40%{ -webkit-transform: perspective(800px)  translateZ(-43px) rotateX(100deg) ;}
+		70%{ -webkit-transform: perspective(1000px)  translateZ(-43px) rotateX(87deg) ;}
+		100%{ -webkit-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;}}
+	
+	@-moz-keyframes flipup{
+		0%{ -moz-transform:  perspective(600px)  translateZ(0px) rotateX(0deg) ;}
+		40%{ -moz-transform: perspective(800px)  translateZ(-43px) rotateX(100deg) ;}
+		70%{ -moz-transform: perspective(1000px)  translateZ(-43px) rotateX(87deg) ;}
+		100%{ -moz-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;}}
+	
+	@-khtml-keyframes flipup{
+		0%{ -khtml-transform:  perspective(600px)  translateZ(0px) rotateX(0deg) ;}
+		40%{ -khtml-transform: perspective(800px)  translateZ(-40px) rotateX(100deg) ;}
+		70%{ -khtml-transform: perspective(1000px)  translateZ(-43px) rotateX(87deg) ;}
+		100%{ -khtml-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;}}
+	
+/* #anim-label-5 ===================================================  */
+	.anim-label-5 li label{
+		transform-origin:bottom;
+		-webkit-transform-origin: bottom;
+		-moz-transform-origin: bottom;}
+		
+	.anim-label-5 li label:before{
+		content: attr(title);
+		line-height: 45px;
+		text-indent: 10px;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		color: white;
+		left: 0;
+		bottom:20px;
+		background-color: #5a5a5a;
+
+		transform:translateZ(-23px) rotateX(-90deg) scaleY(-1);
+		-webkit-transform:translateZ(-23px) rotateX(-90deg) scaleY(-1);
+		-moz-transform:translateZ(-23px) rotateX(-90deg) scaleY(-1);
+		-o-transform: matrix(1,0,0,0,0,0);
+		-ms-transform: matrix(1,0,0,0,0,0);
+		-khtml-transform:translateZ(-23px) rotateX(-90deg) scaleY(-1);}
+	
+	.ltac3d-container.anim-label-5  input:checked ~ label{
+		background-color: #adadad;
+		animation: flipdown .8s forwards normal ease ;
+		-webkit-animation: flipdown .8s forwards normal ease ;
+		-moz-animation: flipdown .8s forwards normal ease ;
+		-khtml-animation: flipdown .8s forwards normal ease ;}
+	
+	@keyframes flipdown{
+		0%{transform:  perspective(500px)  translateZ(0px) rotateX(0deg) ;}
+		40%{transform: perspective(800px)  translateZ(-43px) rotateX(-100deg) ;}
+		70%{transform: perspective(1000px)  translateZ(-43px) rotateX(-87deg) ;}
+		100%{transform: perspective(1000px)  translateZ(-43px) rotateX(-90deg)  ;}}
+	
+	@-webkit-keyframes flipdown{
+		0%{-webkit-transform:  perspective(500px)  translateZ(0px) rotateX(0deg) ;}
+		40%{-webkit-transform: perspective(800px)  translateZ(-43px) rotateX(-100deg) ;}
+		70%{-webkit-transform: perspective(1000px)  translateZ(-43px) rotateX(-87deg) ;}
+		100%{-webkit-transform: perspective(1000px)  translateZ(-43px) rotateX(-90deg)  ;}}
+	
+	@-moz-keyframes flipdown{
+		0%{-moz-transform:  perspective(500px)  translateZ(0px) rotateX(0deg) ;}
+		40%{-moz-transform: perspective(800px)  translateZ(-43px) rotateX(-100deg) ;}
+		70%{-moz-transform: perspective(1000px)  translateZ(-43px) rotateX(-87deg) ;}
+		100%{-moz-transform: perspective(1000px)  translateZ(-43px) rotateX(-90deg)  ;}}
+	
+	@-khtml-keyframes flipdown{
+		0%{-khtml-transform:  perspective(500px)  translateZ(0px) rotateX(0deg) ;}
+		40%{-khtml-transform: perspective(800px)  translateZ(-43px) rotateX(-100deg) ;}
+		70%{-khtml-transform: perspective(1000px)  translateZ(-43px) rotateX(-87deg) ;}
+		100%{-khtml-transform: perspective(1000px)  translateZ(-43px) rotateX(-90deg)  ;}}
+
+/* #anim-label-6 =================================================== */
+	.anim-label-6 li label{
+		transition: transform 0.75s ease-in-out,background-color 0.17s ease;
+		-webkit-transition:  -webkit-transform 0.75s ease-in-out, background-color 0.17s ease;
+		-moz-transition:  -moz-transform 0.75s ease-in-out, background-color 0.17s ease;
+		-khtml-transition:  -khtml-transform 0.75s ease-in-out,background-color 0.17s ease;}
+		
+	.ltac3d-container.anim-label-6  input:checked ~ label{
+		background-color: #adadad;
+		transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;
+		-webkit-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;
+		-moz-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;
+		-khtml-transform: perspective(1000px)  translateZ(-43px) rotateX(90deg) ;}
+	
+
+ul.ltac3d-container article,
+ul.ltac3d-container li,
+ul.ltac3d-container p{ padding-bottom: 0px !important; }

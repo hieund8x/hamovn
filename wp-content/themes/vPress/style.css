@@ -1,0 +1,735 @@
+/*   
+Theme Name: Hạ Mỗ
+Theme URI: http://hamo.vn
+Description: hamo 2012 is a special Genesis childtheme for news site.
+Author: Admin
+Author URI: http://hamo.vn
+Template: genesis
+Version: 2012
+Tags: Genesis
+*/
+@font-face {
+	font-family:"Futura Md";
+	src:url('fonts/futura-md.ttf') format("truetype"),url('fonts/futura-md.eot') format("opentype");
+}
+/*-----------------------------------------Reset-------------------------------------  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, menu-header-menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, menu-header-menu, section {
+	display: block;
+}
+.clear,#inner,#menu-header-menu,#submenu-header-menu,#top{clear:both}
+a{ text-decoration:none; margin-right: 5px;}
+/*-----------------------------------------Core-------------------------------------  */
+body{ font-family:Times New Roman, Helvetica, sans-serif; font-size:14px; line-height:1.1; color:#222222; background-color: aliceblue;}
+#wrap{ padding:0 20px;background-color: white;}
+#header .widget{ float:right;}
+/*#header h1{float:left}*/
+img{ max-width:100% !important }
+.hentry{}
+a{ color:#222222}
+#inner{ border-bottom:1px solid #e1e1e1;border-top:1px solid #e1e1e1; margin-bottom:15px; float:left; width:100% }
+#content-sidebar-wrap #sidebar{ float:right; width:269px; pading:0 0 0 6px;}
+#sidebar-alt{ float:right; width:168px;}
+#sidebar-alt .widget{border-bottom:1px solid #e1e1e1; margin-bottom:8px; float:left; width:100%}
+#sidebar-alt .widget img{ float:left;}
+#top{border-bottom:1px solid #e1e1e1;border-top:2px solid #e1e1e1;float:left;width:100%; margin-bottom:15px;}
+#top #feature{ float:left; width:496px; padding:0px 0}
+#top #feature .hot-news{ padding-bottom:8px;border-bottom:1px solid #e1e1e1; margin-bottom:8px; width:100%; float:left}
+#top #feature .hot-news h1 { font-size:18px; margin-bottom:5px;font-family:Times New Roman, Helvetica, sans-serif}
+#top #feature .hot-news h1 a{ color:#E07000;font-weight:bold;}
+#top #feature .hot-news p{ line-height:1.3}
+#top #feature ul li{ float:left; list-style:none; margin-right:8px; width:150px;}
+#top #feature ul li:last-child{ margin-right:0}
+#top #feature ul li a{ font-weight:900; color:#222222; font-size:12px; line-height:1.2;font-family: Tahoma, Helvetica, sans-serif;}
+#top #feature ul li a:hover{color:rgb(190, 18, 18)}
+#top #latest{ float:left; width:190px; padding:0px 4px 0 4px;word-wrap:break-word;border-right: 1px solid rgb(240, 235, 235);font-size: 12px;font-family: Arial, Helvetica, sans-serif;}
+#top #latest li{ list-style:none; margin-bottom:7px; padding-left:6px;border-bottom: 1px dotted #DAD7D7;padding-bottom: 3px;padding: 0 0 4px 0;}
+#top #latest li a{color:#222222;font-weight:bold;}
+#top #latest li a:hover{ text-decoration:none; color: #A00909;}
+.top-banners{ float:right; width:300px;border-right: 1px solid rgb(236, 236, 236)}
+.top-banners .textwidget{ padding:0px 0 0 8px;}
+.top-banners .textwidget1{ padding:0px 0 0 8px;font-size: 21px; font-weight: bold; text-align: center;}
+.top-banners .textwidget1 a:hover { padding:0px 0 0 8px;font-size: 21px; font-weight: bold; text-align: center; color:#BE0505}
+.top-banners img { float:left; margin-bottom:0px; margin-left:36px; width:261px; height:250px;}
+#footer{border-top:2px solid #FF0000;padding:10px 0 30px; clear:both;}
+#footer .copyright{ font-size:13px; color:#555;}
+#sidebar .widget{ width:100%; float:left; border-bottom:1px solid #E1E1E1;}
+.widgettitle{background:url(http://hamo.vn//wp-content/themes/vPress/images/bg_menu.jpg) repeat-x 0% 0px; margin-bottom:6px; padding:8px; font-family:"Futura Md",Times New Roman,Helvetica,sans-serif; font-size:12px; text-transform:uppercase;text-align: center; color:white;}
+.stock div div{ text-align:center}
+.widget ul{ padding:0 8px; clear:both}
+.widget li{ list-style:none; margin-bottom:8px; background:url(images/bullet.png) no-repeat 0px 4px; padding-left:6px;}
+.widget li a{color:#000000;font-size: 12px;font-family: Arial, Helvetica, sans-serif;}
+.widget li a:hover{ text-decoration:none; color: #CC1B1B;}
+.breadcrumb{ padding:8px 8px 8px 0;border-bottom:1px solid #e1e1e1; margin-bottom:8px; font-size:14px; margin-right:8px;}
+h1.title { font-size:22px; margin-bottom:5px;font-family:"Futura Md",Times New Roman, Helvetica, sans-serif}
+.headline_meta{ font-size:13px; color:#666; margin-bottom:10px;}
+.post p,.page p{ margin-bottom:12px; line-height:1.2;padding: 0 6px 0 0;}
+.thumb{ float:left; margin:0 8px 0 0}
+.archive .hentry{ float:left; width:100%; margin-bottom:8px; padding-bottom:8px; border-bottom:1px solid #e1e1e1}
+.arc_title{ margin-bottom:8px !important;}
+.archive .post p{ margin-bottom:5px;}
+.archive .post h2{ font-weight:900}
+.tagcloud{ padding:0 8px 8px 8px}
+.cat .cat-title ul{display:none}
+.single .hentry ol li{list-style:decimal;margin:0 0 15px 15px;}
+.single .hentry ul li{border-bottom:1px dashed #CCCCCC;list-style-image:url(images/content_li.png);margin:0 0 10px 20px;;padding-bottom:8px;}
+.related li{ list-style:none; float:left; margin-right:8px; width:157px;}
+.related{ width:497px; margin:0 -8px 8px 0; float:left}
+/*-----------------------------------------for out site pic-------------------------------------  */
+.feature .thumb{ max-width:250px; max-height:190px;}
+.feature  ul li .thumb{ width:159px; height:124px;}
+.cat .thumb{ max-width:130px; max-height:100px;}
+.cat .other .thumb{ max-width:40px; max-height:40px;}
+.photo .thumb{ width:318px; height:170px;}
+/*-----------------------------------------Magic Box-------------------------------------  */
+.magic .photo .img{ text-align:center; padding:8px; background:#eeeedb; float:left; width: 252px;}
+.magic .photo ul,.magic .video ul{ padding-top:8px}
+.magic .photo .img .thumb{ margin:0}
+.magic h4{ margin-bottom:0}
+.magic .photo h2,.magic .video h2{ font-weight:900; margin-bottom:8px;}
+.magic .photo ul li a,.magic .video ul li a{ font-size:13px; color:#222222}
+.magic .video p{ padding:8px; color:#F00}
+.magic .video div{ text-align:center; padding:8px;}
+.video iframe  {
+    height: 219px !important;
+    width: 261px !important;
+}
+span.current{margin-right:5px;}
+/*-----------------------------------------Page menu-header-menuigation-------------------------------------  */
+.page_menu-header-menui {text-align:center;clear:both;padding-top:10px;}
+.page_menu-header-menui .current{padding:2px 5px;margin:3px;	border:1px solid #ccc;	background:#E0E0E0;}
+.page_menu-header-menui a{padding:2px 5px;margin:3px;border:1px solid #ccc;}
+/*-----------------------------------------Comments-------------------------------------  */
+.logged-in-as{ margin:0 0 10px !important}
+#comments,#respond {margin: 0 0 15px;clear:both; position:relative;}
+.wp-avim-options{ position:absolute; right:10px; bottom:22px; font-size:13px !important; margin:0 !important}
+#author,#comment,#email,#url {font-size: 13px;margin: 10px 5px 0 0;padding: 5px;width: 250px;}
+#comment {height: 150px;margin: 10px 0;	width: 97.5%;border:1px solid #E1E1E1; }
+.ping-list {margin: 0 0 40px;}
+.comment-list ol,.ping-list ol {padding: 10px;}
+.comment-list li,.ping-list li {font-weight: bold;margin: 15px 0 5px;	padding: 8px;	list-style:none;background:#F5F5F5}
+.comment-list li ul li{list-style-type:none;}
+.comment-list p,.ping-list p{font-weight:400;color:#000;margin:10px 5px 10px 0; line-height:1.4}
+.comment-list cite,.ping-list cite{font-style:normal}
+.commentmetadata{font-size:13px}
+.nocomments{text-align:center}
+#comments .menu-header-menuigation{display:none}
+.thread-alt,.thread-even{background-color:#f5f5f5}
+.alt,.depth-1,.even{border:1px solid #ddd}
+#comments h3,#reply-title{font-size:20px;font-family:"Futura Md", Times New Roman, Helvetica, sans-serif}
+/*-----------------------------------------Images-------------------------------------  */
+.avatar,.featuredpage img,.featuredpost img,.post-image{background-color:#f5f5f5;border:1px solid #ddd;padding:4px}
+.author-box .avatar{background-color:#fff;float:left;height:80px;width:80px;margin:0 10px 0 0}
+.post-image{margin:0 10px 10px 0}
+.comment-list li .avatar{background-color:#fff;float:right;padding:4px}
+.wp-smiley,.wp-wink{border:none;float:none}
+.avatar,.featuredpage img,.featuredpost img,.post-image{background-color:#f5f5f5;border:1px solid #ddd;padding:4px}
+.author-box .avatar{background-color:#fff;float:left;height:80px;width:80px;margin:0 10px 0 0}
+.wp-smiley,.wp-wink{border:none;float:none}
+.wp-avim-options input{ margin-left:0 !important}
+#content h1.title span{ color:#D6D5C7; font-size:16px; text-shadow:none;}
+.akpc_report span{ display:none}
+.comment-author-admin{
+background: #93AEEE !important;
+background: -moz-linear-gradient(top, #93AEEE 0%, #A3E1FB 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93AEEE), color-stop(100%,#A3E1FB)) !important;
+background: -webkit-linear-gradient(top, #93AEEE 0%,#A3E1FB 100%) !important;
+background: -o-linear-gradient(top, #93AEEE 0%,#A3E1FB 100%) !important;
+background: -ms-linear-gradient(top, #93AEEE 0%,#A3E1FB 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93AEEE', endColorstr='#A3E1FB',GradientType=0 ) !important;
+background: linear-gradient(top, #93AEEE 0%,#A3E1FB 100%) !important;
+}
+.comment-author-admin cite a{ color:#fff !important}
+.comment-author-admin  .children cite a{ color:#3CA097 !important}
+/*-----------------------------------------Weather-Gold-Forex box-------------------------------------*/
+.weather_gold_forex{ background: url(images/box-weather.gif) bottom repeat-x; padding:8px; width:251px !important}
+#weather,#gold_forex{float:left;width:50%}
+#weather h4{padding-left:27px;height:14px;padding-top:4px;margin-bottom:5px;}
+#weather img{float:left;margin-right:5px;}
+#weather strong{ clear:both; display:block; margin-bottom:8px; font-weight:900}
+#weather span{font-size:39px !important;margin:20px 0 30px 0;display:block;float:left; font-family:"Futura Md",Times New Roman,Helvetica,sans-serif}
+.gold,.forex{padding:0 0 5px 10px;float:left}
+.gold h4{padding-left:18px;height:14px;padding-top:4px;margin-bottom:5px;}
+.gold span{float:right;margin-bottom:4px;}
+.gold .by{width:80px;height:9px;float:right;text-indent:-999em;overflow:hidden;margin-top:3px}
+.gold table td{padding:4px 6px;}
+.forex table td{padding:2px 18px;}
+.forex h4{padding-left:21px;height:14px;padding-top:4px;margin-bottom:5px;}
+.forex .by{width:70px;height:14px;float:right;text-indent:-999em;overflow:hidden;margin-top:3px}
+#weather h4{background:url(images/cloud.gif) 0 0 no-repeat;font-size:13px;font-weight:900;color:#004F8B;}
+#weather #select{border:1px solid #ddd;width:94%}
+#gold_forex{background:url(images/bg3.gif) 0 7px no-repeat}
+.gold h4{background:url(images/money.gif) 0 0 no-repeat;font-size:13px;font-weight:900;color:#004F8B;}
+.gold span{font-size:10px;font-weight:900;color:#004F8B}
+.gold .by{background:url(images/logoSb.gif) 0 0 no-repeat;}
+.gold table,.forex table{background:#fff;font-size:13px;}
+.gold table td,.forex table td{border:1px solid #ddd;}
+.forex h4{background:url(images/circle-chart.gif) 0 2px no-repeat;font-size:13px;font-weight:900;color:#004F8B;}
+.forex .by{background:url(images/logo-EXIM.gif) 0 0 no-repeat;}
+/*-----------------------------------------Categories-------------------------------------*/
+.categories li{ list-style:none;}
+.categories li.cat{ padding-bottom:10px; border-bottom:1px solid #e1e1e1; float:left; width:112%}
+.categories li.cat:last-child{ border:none}
+.categories li.cat h3 a{ color:#E07000; font-weight:900; margin-bottom:4px; display:block;}
+.categories li.cat h3 a:hover{ text-decoration:none; color: #0606FC;}
+.categories li.cat div div p{ font-size:14px; line-height:1.3}
+.cat-title,.arc_title,.related h3{width:100%; background:url(http://hamo.vn/wp-content/themes/vPress/images/home-cate-title-bg.png) no-repeat; float:left; margin-bottom:6px; padding-top:0px;}
+.cat-title li{ list-style:none; float:left; line-height:1.3; background:url(images/fmenu.gif) no-repeat right center; padding:0 2px;}
+.cat-title li:last-child{ background:none; padding-right:0;}
+.cat-title li a{ color:#555;}
+.cat-title li a:hover,.cat-title h4 a:hover{ color:#B90505;}
+.cat-title h4 a,.arc_title span,.related h3 span{border-bottom:0px solid #FFCC00;font-family:Times New Roman, Helvetica, sans-serif; line-height:2.2; padding: 0 10px 0 3px; float:left; text-transform:uppercase; color: #4B4B4B; font-size:13px;font-weight:bold;}
+.other a:hover{ text-decoration:none; color: #CE2222;}
+.other li{ float:left;margin-bottom:7px;background:url(images/bullet.png) no-repeat 0 6px; padding-left:8px;}
+.other li.other1{ list-style:none; margin-bottom:7px; background:url(images/bullet.png) no-repeat 0 6px; padding-left:8px;}
+/*-----------------------------------------Top Menu-------------------------------------*/
+#nav li{ list-style:none; float:left; background: url(images/fmenu.gif) no-repeat scroll right center rgba(247, 240, 240, 0); height: 30px; padding-left: 3px; padding-right: 6px; margin-right:10px; }
+#nav ul{ width:100%;height: 56px; background:url(http://hamo.vn/wp-content/themes/vPress/images/allmenu.png) repeat-x 0% 0px; float:left; margin-bottom:0px;position:relative}
+#nav a{ display:block;float: left; padding-bottom:2px; color:#FAFAFA; font-family:Times New Roman, Helvetica, sans-serif; line-height:2;font-weight:bold}
+#nav a:hover, #nav .current-menu-item a{display:block; border-bottom:0px solid #FFFFFF;float:left; padding-bottom:0; color:#FFFF05}
+#nav ul li ul{ display:none;position:absolute; background:none;top:23px; width:auto; height:initial;padding:4px 0 0 0;}
+#nav ul li ul li{ display:block;background:none;float:left; padding: 0 0px 0 0px; margin:3px}
+#nav ul li ul li a{display:block; color:red;font-size:11.5px; background:url(http://res.vietnamnet.vn/VietNamNet/Standard/v2013/images/bullet1.png)no-repeat left;padding:0 0 0 8px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;}
+#nav ul li ul li a:hover{color:black}
+/*-----------------------------------------Footer Menu-------------------------------------*/
+#subnav li{ list-style:none; float:left;line-height:1; font-size:13px; background:url(images/fmenu.gif) no-repeat right center; padding:0 5px;}
+#subnav li:last-child{ padding-right:0; background:none}
+#subnav ul{float: none;
+    font-size: 28px;
+    font-weight: bold;;  }
+#subnav a{ float: left;color:#555;}
+#subnav a:hover{ text-decoration:done; color: #C51414;}
+#nav .current-menu-item a{border-bottom:0px solid #FFFFFF;float:left; padding-bottom:0; color:red}
+/*-----------------------------------------Responsive-------------------------------------*/
+#sidebar,#sidebar-alt,.latest,.top-banners,#header .wrap div,#submenu-header-menu,#top,.other .thumb{ display:none}
+@media screen and (min-width: 720px) {
+.other{ float:right; width:152px; margin-right:5px;}
+#content-sidebar-wrap #content{ float:left; width:497px;}
+.categories li.cat div div{ float:left; width:328px;}
+#wrap{ width:665px; margin:0 auto; padding:0}
+#sidebar-alt,.latest{ display:block}
+#content-sidebar-wrap{ float:left; background:url(images/bg2.png) repeat-y 496px 0;}
+#top{background:url(images/bg2.png) repeat-y 496px 0}
+.single #content-sidebar-wrap #content,.page #content-sidebar-wrap #content{ float:left; width:555px; padding-right:8px;}
+.cat .cat-title ul{ float:left; min-height:20px; overflow:hidden; display:block}
+}
+@media screen and (min-width: 980px) {
+#wrap{ width:833px;}
+#sidebar,.top-banners,#submenu-header-menu,#top,.other .thumb{ display:block}
+#sidebar-alt,.latest{ display:none}
+.other li{ padding-left:0; background:none; border-bottom: 1px dotted #DAD7D7;padding-bottom: 3px;padding: 0px 0 4px 0; font-size: 12px;font-family: Arial, Helvetica, sans-serif;}
+.categories li.cat div div{ float:left; width:391px;}
+.other{ float:right; width:152px; margin-right:8px;}
+#content-sidebar-wrap #content{width:497px;}
+}
+@media screen and (min-width: 1200px) {
+#wrap{ width:1000px;}
+#content-sidebar-wrap{ float:left; width:832px;background:url(images/bg2.png) repeat-y 555px 0;}
+#top .wrap{float:left;width:100%;margin-top:4px;}
+#top{background:url(images/bg2.png) repeat-y 496px 0}
+#sidebar,#sidebar-alt,.latest,.top-banners,#header .wrap div,#submenu-header-menu{ display:block}
+}
+body.home#content table{
+    width: 574px !important;
+}
+#subnav .wrap{
+height: 28px;
+}
+#related-posts-via-categories-title{
+  font-size: 25px;font-weight: bold;margin-bottom: 10px;margin-left: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+#scrollbarbox{
+padding-left:0px !important;
+padding-right:0px !important;
+}
+
+
+
+/***** Custom CSS by NGUYEN DINH HIEU *****/
+
+.ngg-gallery-thumbnail img{
+    padding: 0px !important;
+}
+
+.cat-title li {
+    margin: 5px 2px;
+}
+#nav li.no-hover{
+    display: none;
+}
+.categories li.cat {
+    text-align: justify;
+}
+#widget_tptn_pop-2 ul li{
+    min-height: 70px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px){
+    #wrap {
+        width: 1000px;
+    }
+    #leftcontainerBox{left:15px;}
+    #widget_tptn_pop-2 ul li{height:auto;}
+}
+
+@media all and (max-width: 1023px){
+    #wrap {
+        width: 1000px;
+    }
+    .banner-tet{display:none;}
+    .pmc_menuContainer{display:none;}
+    #leftcontainerBox{display:none;}
+}
+
+/*CSS FOR MENU IN MOBILE VER.2*/
+@media all and (min-width: 981px) and (max-width: 1199px){
+    #top{
+         background: url("images/bg2.png") repeat-y scroll 64% 0 rgba(0, 0, 0, 0);
+     }
+    #top #feature {
+        width: 64%;
+    }
+    #content-sidebar-wrap {
+        background: none;
+        float: left;
+    }
+    #content-sidebar-wrap #sidebar {
+        float: left;
+        margin-left: 65px;
+        width: 269px;
+    }
+    #sidebar-alt, .latest {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 980px){
+    #wrap{
+        width: 98%;
+    }
+    #content-sidebar-wrap{
+        background: none;
+    }
+    #content-sidebar-wrap #sidebar{
+        display: none;
+    }
+    #header .wrap a {
+        margin-left: 40px;
+    }
+    #header .wrap a img {
+        width: 95%;
+    }
+    ul.other{
+        width: 25%;
+        border-left: 1px solid #CCCCCC;
+        padding-left: 10px;
+    }
+    #nav {
+        height: 10px;
+    }
+    #nav ul {
+        display: block;
+        margin-bottom: 15px;
+        position: absolute;
+        width: 200px;
+        background: #555555;
+        left: -200px;
+        top: 80px;
+        height: auto;
+    }
+    #nav li {
+        background: #555555;
+        border-bottom: 1px solid #484848;
+        display: block;
+        float: left;
+        list-style: none outside none;
+        margin: 5px 0;
+        position: relative;
+        width: 33%;
+        top:-60px;
+        padding-left: 20px;
+        position: relative;
+        width: 170px;
+    }
+    #nav li a:hover ul{
+        display: none;
+    }
+    #nav li.no-hover{
+        display: block;
+        background: url("http://hamo.vn/wp-content/uploads/2014/05/img_left_panel.gif") no-repeat scroll left top rgba(0, 0, 0, 0);
+        width: 70px;
+        height: 50px;
+        border: none;
+        margin-top: 5px;
+        top: 0;
+        left: 200px;
+        cursor: pointer;
+    }
+    #nav li.no-hover a{
+        width: 0px;
+        margin-left: -9999px;
+    }
+    #nav li a {
+        color: #FFF;
+        padding-bottom: 10px;
+    }
+    #nav li a:hover,#nav .current-menu-item a{
+        border: none;
+        padding-bottom: 10px;
+        color: #FFF;
+    }
+    #nav ul li ul {
+        background: #555555;
+        height: auto;
+        left: 200px !important;
+        padding: 4px 0 0;
+        position: absolute;
+        top: 5px;
+        width: auto;
+    }
+    #nav ul li ul li{
+        background: #555555;
+        top: 0;
+    }
+    #sidebar-alt, .latest {
+        display: none;
+    }
+    #content-sidebar-wrap #content {
+        float: left;
+        width: 100%;
+        background: none;
+    }
+    .categories li.cat {
+        border-bottom: 1px solid #E1E1E1;
+        float: left;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .categories li.cat div div {
+        float: left;
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 768px){
+    #wrap {
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+    }
+    #header .wrap a {
+        margin-left: 40px;
+    }
+    #header .wrap a img {
+        width: 94%;
+    }
+    #nav{
+        height: 0px;
+    }
+    #nav ul{
+        top: 50px;
+    }
+}
+
+@media all and (max-width: 720px){
+    #wrap {
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+    }
+    #header .wrap a {
+        margin-left: 40px;
+    }
+    #header .wrap a img {
+        width: 94%;
+    }
+    #nav{
+        height: 0px;
+    }
+    #nav ul{
+        top: 45px;
+    }
+    .other li {
+        display: block;
+        float: left;
+        margin-bottom: 7px;
+        padding-left: 5px;
+        width: 95%;
+    }
+    ul.other {
+        border-left: 1px solid #CCCCCC;
+        padding-left: 10px;
+        width: 90%;
+    }
+    .other > li:first-child {
+        margin-top: 10px;
+    }
+    .categories li.cat div div {
+        float: left;
+        width: 95%;
+    }
+
+}
+
+@media  all and (max-width: 640px) {
+    #nav ul {
+        top: 35px;
+    }
+}
+
+@media  all and (max-width: 540px){
+    #nav ul {
+        top: 21px;
+    }
+}
+
+@media all and (max-width: 480px){
+
+    #header .wrap a {
+        margin-left: 40px;
+    }
+    #header .wrap a img {
+        width: 90%;
+    }
+    #wrap {
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+    }
+    #nav{
+        height: 0px;
+    }
+    #nav ul{
+        top: 10px;
+    }
+    .related li{
+        width: 44%;
+    }
+    .related .thumb{
+        float: left;
+        width: 95%;
+        margin: 5px 8px 4px 1px;
+    }
+}
+
+@media all and (max-width: 350px){
+
+    #wrap {
+        margin: 0 auto;
+        width: 98%;
+        padding: 0;
+    }
+    #header .wrap a {
+        margin-left: 40px;
+    }
+    #header .wrap a img {
+        width: 85%;
+    }
+    #nav{
+        height: 0px;
+    }
+    #nav ul{
+        top: -10px;
+    }
+    #nav li {
+        top: -43px;
+    }
+    .related li{
+        width: 60%;
+    }
+    .related .thumb{
+        width: 90%;
+        margin: 16px 8px 3px 26px;
+    }
+    .related a{
+        display: block;
+        margin-left: 25px;
+    }
+}
+
+/* CSS FOR MENU IN MOBILE VER.1
+@media all and (min-width: 980px) and (max-width: 1199px){
+    #content-sidebar-wrap {
+        background: none;
+        float: left;
+    }
+    #content-sidebar-wrap #sidebar {
+        float: left;
+        margin-left: 65px;
+        width: 269px;
+    }
+    #sidebar-alt, .latest {
+        display: none;
+    }
+
+}
+
+@media all and (max-width: 979px){
+    #nav ul {
+        display: block;
+        float: left;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    #nav li {
+        display: block;
+        float: left;
+        list-style: none outside none;
+        margin-right: 0px;
+        position: relative;
+        width: 33%;
+        margin-top: 2px;
+    }
+    #sidebar-alt, .latest {
+        display: none;
+    }
+    #content-sidebar-wrap #content {
+        float: left;
+        width: 100%;
+    }
+    .categories li.cat {
+        border-bottom: 1px solid #E1E1E1;
+        float: left;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .categories li.cat div div {
+        float: left;
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 719px){
+    .other li {
+        display: block;
+        float: left;
+        margin-bottom: 7px;
+        padding-left: 5px;
+        width: 95%;
+    }
+    .other > li:first-child {
+        margin-top: 10px;
+    }
+    .categories li.cat div div {
+        float: left;
+        width: 95%;
+    }
+    #wrap > div {
+        min-height: 50px;
+    }
+    #nav ul {
+        display: block;
+        float: left;
+        margin-bottom: 15px;
+        position: absolute;
+        width: 94%;
+        z-index: 99999;
+        background: #CCC;
+    }
+    #nav li{
+        display: none;
+        width: 30%;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    #nav li.no-hover{
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+        font-size: 20px;
+        text-transform: uppercase;
+        background: #FFF;
+        padding-top: 7px;
+
+    }
+    #nav li.no-hover a{
+        margin-left: 38%;
+        background: #CCC;
+        padding: 6px;
+    }
+    #nav li.no-hover a:hover{
+        border: none;
+    }
+
+    #nav ul:hover li {
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 480px){
+    #nav li {
+        width: 45%;
+        padding: 0px;
+        margin-top: 10px;
+    }
+    #nav ul {
+        width: 92%;
+    }
+    #nav li a{
+        margin-left: 30%;
+    }
+    #nav li.no-hover a{
+        margin-left: 35%;
+    }
+    .related li{
+        width: 44%;
+    }
+    .related .thumb{
+        float: left;
+        width: 95%;
+        margin-top: 5px 8px 4px 1px;
+    }
+}
+
+@media all and (max-width: 350px){
+    #nav ul {
+        width: 88%;
+    }
+    #nav li{
+        width: 50%;
+    }
+    #nav li a{
+        margin-left: 4%;
+    }
+    #nav li.no-hover a{
+        margin-left: 28%;
+    }
+    .related li{
+        width: 60%;
+    }
+    .related .thumb{
+        width: 90%;
+        margin: 16px 8px 3px 26px;
+    }
+    .related a{
+        display: block;
+        margin-left: 25px;
+    }
+}
+*/

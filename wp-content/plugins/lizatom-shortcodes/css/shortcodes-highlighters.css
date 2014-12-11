@@ -1,0 +1,18 @@
+/*====================================================================================================
+ * H I G H L I G H T E R S                                                   H I G H L I G H T E R S *
+ =====================================================================================================*/
+
+span.lizatom-highlighter         { padding: 0 5px 0 5px; color: #fff; text-shadow: none; }
+.lizatom-highlighter-light-blue  { background-color: #45BBF2; }
+.lizatom-highlighter-light-green { background-color: #93D927; }
+.lizatom-highlighter-yellow      { background-color: #FABD11; }
+.lizatom-highlighter-blue        { background-color: #165DC2; }
+.lizatom-highlighter-green       { background-color: #688334; }
+.lizatom-highlighter-black       { background-color: #3B3B3B; }
+.lizatom-highlighter-violet      { background-color: #9D29FF; }
+.lizatom-highlighter-bordo       { background-color: #90064B; }
+.lizatom-highlighter-orange      { background-color: #F25807; }
+.lizatom-highlighter-gray        { background-color: #C1C8CA; }
+.lizatom-highlighter-red         { background-color: #F02D33; }
+.lizatom-highlighter-pink        { background-color: #F586E9; }
+.lizatom-highlighter-white       { background-color: #fff; color: #363636 !important; }

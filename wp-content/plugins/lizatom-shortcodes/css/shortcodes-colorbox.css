@@ -1,0 +1,6 @@
+/* Box */
+.lt-box,
+.lt-note{ margin: 0 0 1.5em 0; }
+.lt-box-title { display: block; padding: 10px 15px; margin: 0; color: #fff; font-size: 1.1em; font-weight: bold; background: left bottom url(../images/box-title.png) repeat-x; }
+.lt-box-content { background: #fff; padding: 15px; }
+.lt-note-shell { padding: 15px; }

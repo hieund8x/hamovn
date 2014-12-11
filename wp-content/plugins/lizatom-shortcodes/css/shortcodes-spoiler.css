@@ -1,0 +1,6 @@
+/* Spoiler */
+.lt-spoiler { margin: 0 0 1.5em 0; }
+.lt-spoiler-title { padding: 0.3em 0 0.3em 26px; font-weight: bold; background: 0 50% url(../images/spoiler/minus.png) no-repeat; cursor: pointer; }
+.lt-spoiler-content { padding: 15px 0; display: none; }
+.lt-spoiler-open .lt-spoiler-title { background: 0 50% url(../images/spoiler/plus.png) no-repeat; }
+.lt-spoiler-open .lt-spoiler-content { display: block; }

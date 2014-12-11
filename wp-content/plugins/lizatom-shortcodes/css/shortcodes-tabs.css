@@ -1,0 +1,26 @@
+/*====================================================================================================
+ * T A B S                                                                                   T A B S *
+ =====================================================================================================*/
+
+/* vertical
+-------------------------------------------------------------- */
+.lizatom-tabs-vertical dd.current                     { display: block; }
+.lizatom-tabs-vertical                                { position: relative; width: 100%; height: auto; box-shadow: 0 0 3px #c3c3c3; border-radius: 10px; background-color: #f8f8f8; overflow: hidden; margin: 0; }
+.lizatom-tabs-vertical dt                             { width: 22%; border-bottom: 1px solid #ededed; font-size: 12px; font-weight: bold; cursor: pointer; padding: 16px 0 16px 3%; }
+.lizatom-tabs-vertical dt img                         { display: inline-block; margin-right: 15px; position: relative; top: 5px; }
+.lizatom-tabs-vertical dd                             { position: absolute; top: 0; right: 0; margin-left: 25%; background-color: #FFF; width: 67%; height: 100%; box-shadow: inherit; overflow: auto; display: none; z-index: 1000; padding: 4%; }
+.lizatom-tabs-vertical dt:first-child                 { margin-top: 2.4%; }
+.lizatom-tabs-vertical dd .column_group p:first-child { margin-top: 0; }
+.lizatom-tabs-vertical_arrow                          { position: absolute; top: 0; left: 23%; z-index: 1001; width: 19px; height: 38px; background-image: url(../images/tabs/arrow-vertical.png); background-repeat: no-repeat; }
+
+.lizatom-tabs-vertical dt.current,
+.lizatom-tabs-horizontal dt.current                   { font-style: italic; }
+
+/* horizontal
+-------------------------------------------------------------- */
+.lizatom-tabs-horizontal dd.current                   { display: block; }
+.lizatom-tabs-horizontal                              { position: relative; display: block; clear: both; margin-top: 40px; font-size: 12px; padding-top: 10px; padding-bottom: 35px; height: auto; }
+dl.lizatom-tabs-horizontal                            { margin: 0 0 0 0; }
+.lizatom-tabs-horizontal dt                           { float: left; margin-left: 1.25%; margin-right: 3.5%; cursor: pointer; font-weight: bold; }
+.lizatom-tabs-horizontal dd                           { display: none; position: absolute; min-width: 90%; background-image: url(../images/tabs/tabs-bg.png); background-repeat: repeat-x; top: 50px; padding: 5%; }
+.lizatom-tabs-horizontal_arrow                        { position: absolute; top: 38px; z-index: 1001; width: 28px; height: 15px; background-image: url(../images/tabs/arrow-horizontal.png); background-repeat: no-repeat; }

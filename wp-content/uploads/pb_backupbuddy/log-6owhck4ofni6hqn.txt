@@ -1,0 +1,3 @@
+[Nov 4, 2013 20:58:07 7-error] [] Fileoptions file `D:\WWW\FTP DIRECTORY\hamo.vn/wp-content/uploads/pb_backupbuddy/fileoptions/wyr6r9xk2m.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Nov 4, 2013 20:58:07 7-error] [] Fileoptions file `D:\WWW\FTP DIRECTORY\hamo.vn/wp-content/uploads/pb_backupbuddy/fileoptions/wyr6r9xk2m.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Nov 4, 2013 20:59:21 7-error] [] Fileoptions file `D:\WWW\FTP DIRECTORY\hamo.vn/wp-content/uploads/pb_backupbuddy/fileoptions/wyr6r9xk2m.txt` not found and NOT in create mode. Verify file exists & check permissions.

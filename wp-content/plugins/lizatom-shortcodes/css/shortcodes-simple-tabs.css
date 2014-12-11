@@ -1,0 +1,19 @@
+/* Simple Tabs */
+.lizatom-simpletabs                                           { margin: 0 0 1.5em 0; }
+.lizatom-simpletabs-style-1 .lizatom-simpletabs-nav                      { padding: 5px 5px 0 5px; margin: 0; height: 40px; }
+.lizatom-simpletabs-style-1 .lizatom-simpletabs-nav span                 { display: block; float: left; padding: 0 20px; height: 39px; line-height: 39px; margin-right: 5px; cursor: pointer; border-top: 1px solid #fff; border-right: 1px solid #fff; border-left: 1px solid #fff; background: #f1f1f1; }
+.lizatom-simpletabs-style-1 .lizatom-simpletabs-nav span:hover           { background: #fff; border: 1px solid #e5e5e5; border-bottom: none; }
+.lizatom-simpletabs-style-1 .lizatom-simpletabs-nav span.lizatom-simpletabs-current { background: #fff; border: 1px solid #e5e5e5; border-bottom: none; }
+.lizatom-simpletabs-style-1 .lizatom-simpletabs-pane                     { padding: 15px; border: 1px solid #e5e5e5; }
+.lizatom-simpletabs-style-2 .lizatom-simpletabs-nav                      { padding: 5px 5px 0 5px; margin: 0; height: 40px; }
+.lizatom-simpletabs-style-2 .lizatom-simpletabs-nav span                 { display: block; float: left; padding: 0 20px; height: 39px; line-height: 39px; margin-right: 5px; cursor: pointer; border-top: 1px solid #fff; border-right: 1px solid #fff; border-left: 1px solid #fff; background: #222; }
+.lizatom-simpletabs-style-2 .lizatom-simpletabs-nav span:hover           { background: #fff; border: 1px solid #e5e5e5; border-bottom: none; }
+.lizatom-simpletabs-style-2 .lizatom-simpletabs-nav span.lizatom-simpletabs-current { background: #fff; border: 1px solid #e5e5e5; border-bottom: none; }
+.lizatom-simpletabs-style-2 .lizatom-simpletabs-pane                     { padding: 15px; background: #222; }
+.lizatom-simpletabs-style-3                                   { background: #fff; }
+.lizatom-simpletabs-style-3 .lizatom-simpletabs-nav                      { width: 200px; float: left; }
+.lizatom-simpletabs-style-3 .lizatom-simpletabs-nav span                 { display: block; padding: 5px 10px; cursor: pointer; background: #f1f1f1; }
+.lizatom-simpletabs-style-3 .lizatom-simpletabs-nav span:hover           { background: #fff; border: 1px solid #f1f1f1; }
+.lizatom-simpletabs-style-3 .lizatom-simpletabs-nav span.lizatom-simpletabs-current { background: #fff; border: 1px solid #f1f1f1; }
+.lizatom-simpletabs-style-3 .lizatom-simpletabs-pane                     { padding: 15px; float: none; margin-left: 200px; background: #fff; border: 1px solid #f1f1f1; }
+

@@ -1,0 +1,16 @@
+*** VideoPlus Changelog ***
+
+2012.02.03 - version 1.0.2
+ * style.css - Add #main-article style
+ * includes/js/custom.js - Fixed recent post display
+ * index.php & archive.php & search.php - Add article id : #main-article
+
+
+2012.01.15 - version 1.0.1
+ * style.css - Fixed HTML5 issues for old browsers
+ * custom.css - Fixed CSS3 issues for old browsers
+ * includes/js/custom.js - Fixed entry lists bottom
+ 
+
+2012.01.10 - version 1.0
+ * First release!

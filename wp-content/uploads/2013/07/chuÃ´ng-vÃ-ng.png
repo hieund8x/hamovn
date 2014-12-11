@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en">                      
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>Trang thông tin điện tử xã Hạ Mỗ &mdash; Một trang web mới sử dụng WordPress</title>
+<meta name="description" content="Một trang web mới sử dụng WordPress" />
+<meta name="robots" content="noodp,noydir" />
+<link rel="alternate" type="application/rss+xml" title="Trang thông tin điện tử xã Hạ Mỗ &raquo; Feed" href="http://hamo.vn/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Trang thông tin điện tử xã Hạ Mỗ &raquo; Comments Feed" href="http://hamo.vn/?feed=comments-rss2" />
+<link rel="canonical" href="http://hamo.vn/" />
+<link rel='stylesheet' id='child-theme-css'  href='http://hamo.vn/wp-content/themes/vPress/style.css?ver=2.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://hamo.vn/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://hamo.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://hamo.vn/xmlrpc.php?rsd" />
+<link rel="Shortcut Icon" href="http://hamo.vn/wp-content/themes/vPress/images/favicon.ico" type="image/x-icon" />
+<link rel="pingback" href="http://hamo.vn/xmlrpc.php" />
+	<script src="http://hamo.vn/wp-content/themes/vPress/js/respond.min.js"></script>
+</head>
+<body class="home blog header-full-width nolayout"><div id="wrap"><div id="header"><div class="wrap">    <h1><a title="Trang thông tin điện tử xã Hạ Mỗ" rel="home" href="http://hamo.vn/"><img src="http://hamo.vn/wp-content/themes/vPress/images/logo.png" alt="Trang thông tin điện tử xã Hạ Mỗ" /></a></h1>
+    </div></div>	<div id="top">
+    	<div class="wrap">
+                                            </div>
+    </div>
+<div id="inner"><div id="content-sidebar-wrap"><div id="content" class="hfeed"><ul class="categories">
+   </ul>
+</div><div id="sidebar" class="sidebar widget-area"></div></div><div id="sidebar-alt" class="sidebar widget-area"></div></div><div id="footer" class="footer"><div class="wrap">	<p class="copyright">&copy; 2012 Trang thông tin điện tử xã Hạ Mỗ | All rights reserved.</p>
+</div></div></div><script type='text/javascript' src='http://hamo.vn/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.4'></script>
+<script type='text/javascript' src='http://hamo.vn/wp-content/themes/genesis/lib/js/menu/superfish.args.min.js?ver=2.0.0'></script>
+<script type='text/javascript' src='http://hamo.vn/wp-content/themes/genesis/lib/js/menu/superfish.compat.min.js?ver=2.0.0'></script>
+</body>
+</html>
